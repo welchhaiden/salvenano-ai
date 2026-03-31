@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SalveNano AI — Miami's #1 AI Automation Agency</title>
-<meta name="description" content="Miami's most trusted AI automation agency. We install intelligent systems into local businesses that work 24/7, slash costs by 40%, and give owners their life back.">
+<meta name="description" content="Miami's #1 AI automation agency. We build AI systems that run your business 24/7, save you 20+ hours a week, and grow your revenue. 50+ Miami businesses automated.">
+<link rel="canonical" href="https://salvenano.ai/">
 <!-- Favicons -->
 <link rel="icon" href="/assets/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
@@ -13,1286 +14,1086 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/android-chrome-192x192.png">
 <link rel="icon" type="image/png" sizes="512x512" href="/assets/android-chrome-512x512.png">
-<!-- Open Graph -->
+<!-- OG / Twitter -->
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://salvenano.ai/">
 <meta property="og:title" content="SalveNano AI — Miami's #1 AI Automation Agency">
-<meta property="og:description" content="Miami's most trusted AI automation agency. We install intelligent systems into local businesses that work 24/7, slash costs by 40%, and give owners their life back.">
+<meta property="og:description" content="We build AI systems that run your business while you sleep. 50+ Miami businesses automated.">
 <meta property="og:image" content="/assets/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="SalveNano AI — Miami's #1 AI Automation Agency">
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="SalveNano AI — Miami's #1 AI Automation Agency">
-<meta name="twitter:description" content="Miami's most trusted AI automation agency. We install intelligent systems into local businesses that work 24/7, slash costs by 40%, and give owners their life back.">
-<meta name="twitter:image" content="/assets/twitter-image.png">
-<meta name="twitter:image:alt" content="SalveNano AI — Miami's #1 AI Automation Agency">
+<meta name="twitter:description" content="We build AI systems that run your business while you sleep.">
+<meta name="twitter:image" content="/assets/og-image.png">
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<style>
-/* ===== DESIGN TOKENS ===== */
-:root {
-  --bg: #0a0a0a;
-  --bg-card: rgba(255,255,255,0.025);
-  --bg-card-hover: rgba(255,255,255,0.05);
-  --border: rgba(255,255,255,0.07);
-  --border-strong: rgba(255,255,255,0.12);
-  --accent: #00ff88;
-  --accent-dim: rgba(0,255,136,0.12);
-  --accent-glow: rgba(0,255,136,0.25);
-  --text-primary: #ffffff;
-  --text-secondary: rgba(255,255,255,0.62);
-  --text-muted: rgba(255,255,255,0.35);
-  --radius-sm: 8px;
-  --radius-md: 14px;
-  --radius-lg: 20px;
-  --radius-xl: 28px;
-  --font-head: 'Space Grotesk', sans-serif;
-  --font-body: 'DM Sans', sans-serif;
-  --ease: cubic-bezier(0.4,0,0.2,1);
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "SalveNano AI",
+  "description": "Miami's #1 AI automation agency. We build AI systems that run your business 24/7.",
+  "url": "https://salvenano.ai",
+  "email": "contact@salvenano.ai",
+  "address": {"@type": "PostalAddress", "addressLocality": "Miami", "addressRegion": "FL", "addressCountry": "US"},
+  "areaServed": ["Brickell", "Wynwood", "Coral Gables", "South Beach", "Doral"],
+  "sameAs": []
 }
-
-/* ===== RESET ===== */
+</script>
+<style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;font-size:16px}
-body{background:var(--bg);color:var(--text-primary);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;opacity:0;animation:pageIn 0.7s var(--ease) forwards}
+html{font-size:16px;overflow-x:hidden}
+body{background:#0a0a0a;color:#fff;font-family:'Plus Jakarta Sans',sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;cursor:none}
+@media(max-width:768px){body{cursor:auto}}
 img,svg{display:block}
 a{text-decoration:none;color:inherit}
-button{font-family:var(--font-body);cursor:pointer;border:none;background:none}
+button{font-family:'Plus Jakarta Sans',sans-serif;cursor:pointer;border:none;background:none}
 ul{list-style:none}
-
-@keyframes pageIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-
-/* ===== CANVAS ===== */
-#particles{position:fixed;inset:0;z-index:0;pointer-events:none}
-
-/* ===== LAYOUT ===== */
-.container{max-width:1160px;margin:0 auto;padding:0 24px;position:relative;z-index:2}
+.container{max-width:1200px;margin:0 auto;padding:0 28px;position:relative;z-index:2}
 section{position:relative;z-index:2}
 
-/* ===== SCROLL REVEAL ===== */
-.reveal{opacity:0;transform:translateY(32px);transition:opacity 0.75s var(--ease),transform 0.75s var(--ease)}
-.reveal.visible{opacity:1;transform:translateY(0)}
-.reveal-d1{transition-delay:0.08s}.reveal-d2{transition-delay:0.16s}.reveal-d3{transition-delay:0.24s}
-.reveal-d4{transition-delay:0.32s}.reveal-d5{transition-delay:0.40s}.reveal-d6{transition-delay:0.48s}
+/* LOADER */
+#loader{position:fixed;inset:0;background:#0a0a0a;z-index:9999;display:flex;align-items:center;justify-content:center;pointer-events:none}
+#loader-logo{font-family:'Plus Jakarta Sans',sans-serif;font-size:1.6rem;font-weight:800;color:#00ff88;letter-spacing:0.15em;opacity:0;text-transform:uppercase}
 
-/* ===== UTILITIES ===== */
-.text-accent{background:linear-gradient(135deg,#00ff88,#00e87a);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.section-label{display:inline-flex;align-items:center;gap:10px;font-size:0.7rem;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
-.section-label::before,.section-label::after{content:'';width:28px;height:1px;background:var(--accent);opacity:0.5}
-.section-title{font-family:var(--font-head);font-size:clamp(2rem,3.8vw,3rem);font-weight:700;line-height:1.1;letter-spacing:-0.02em;margin-bottom:16px}
-.section-sub{font-size:1.05rem;color:var(--text-secondary);max-width:560px;line-height:1.7}
+/* CURSOR */
+#cursor{position:fixed;width:8px;height:8px;background:#00ff88;border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:width 0.18s ease,height 0.18s ease,background 0.18s ease;mix-blend-mode:difference}
+#cursor.expanded{width:40px;height:40px}
+@media(max-width:768px){#cursor{display:none}}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:900;padding:20px 0;transition:all 0.4s ease}
+nav.scrolled{background:rgba(10,10,10,0.85);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,0.06);padding:14px 0}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 28px;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.05rem;letter-spacing:-0.01em}
+.nav-logo-dot{width:8px;height:8px;background:#00ff88;border-radius:50%;box-shadow:0 0 10px rgba(0,255,136,0.6)}
+.nav-links{display:flex;align-items:center;gap:36px}
+.nav-links a{font-size:0.9rem;font-weight:500;color:rgba(255,255,255,0.72);transition:color 0.2s ease}
+.nav-links a:hover{color:#fff}
+.nav-cta{display:inline-flex;align-items:center;gap:8px;padding:11px 24px;background:#00ff88;color:#030d06;border-radius:8px;font-weight:700;font-size:0.9rem;transition:all 0.22s ease;position:relative}
+.nav-cta:hover{background:#00e87a;box-shadow:0 6px 24px rgba(0,255,136,0.35);transform:translateY(-1px)}
+.nav-hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px}
+.nav-hamburger span{display:block;width:24px;height:2px;background:#fff;border-radius:2px;transition:all 0.3s ease}
+.nav-mobile{display:none;position:fixed;inset:0;background:#0a0a0a;z-index:800;flex-direction:column;align-items:center;justify-content:center;gap:32px;opacity:0;pointer-events:none;transition:opacity 0.3s ease}
+.nav-mobile.open{opacity:1;pointer-events:all}
+.nav-mobile a{font-size:1.6rem;font-weight:700;color:#fff;transition:color 0.2s}
+.nav-mobile a:hover{color:#00ff88}
+.nav-mobile-close{position:absolute;top:24px;right:28px;font-size:2rem;color:#fff;cursor:pointer;background:none;border:none}
+@media(max-width:900px){.nav-links{display:none}.nav-hamburger{display:flex}.nav-mobile{display:flex}}
+
+/* HERO */
+#hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden;padding:120px 28px 80px}
+#hero-canvas{position:absolute;inset:0;z-index:0;pointer-events:none}
+.hero-content{position:relative;z-index:2;max-width:900px;margin:0 auto}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;padding:7px 18px;background:rgba(0,255,136,0.08);border:1px solid rgba(0,255,136,0.2);border-radius:100px;font-size:0.8rem;font-weight:600;color:#00ff88;letter-spacing:0.06em;margin-bottom:28px}
+.hero-badge-dot{width:6px;height:6px;background:#00ff88;border-radius:50%;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+.hero-title{font-size:clamp(3rem,7vw,6rem);font-weight:800;line-height:1.05;letter-spacing:-0.03em;margin-bottom:24px}
+.hero-title .accent{color:#00ff88}
+.hero-sub{font-size:clamp(1rem,1.8vw,1.22rem);color:rgba(255,255,255,0.65);max-width:560px;margin:0 auto 40px;line-height:1.7}
+.hero-ctas{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:52px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:15px 30px;border-radius:10px;font-weight:700;font-size:0.95rem;transition:all 0.22s ease;cursor:none;white-space:nowrap;position:relative}
+@media(max-width:768px){.btn{cursor:pointer}}
+.btn-primary{background:#00ff88;color:#030d06;overflow:hidden}
+.btn-primary::before{content:'';position:absolute;inset:-2px;background:linear-gradient(90deg,#00ff88,#00e87a,#00ff88);border-radius:12px;z-index:-1;background-size:200%;animation:borderMove 3s linear infinite}
+@keyframes borderMove{0%{background-position:0%}100%{background-position:200%}}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 40px rgba(0,255,136,0.4)}
+.btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.15);backdrop-filter:blur(10px)}
+.btn-outline:hover{border-color:rgba(0,255,136,0.5);color:#00ff88;transform:translateY(-2px)}
+.hero-trust{display:flex;align-items:center;justify-content:center;gap:32px;flex-wrap:wrap}
+.hero-trust-item{display:flex;align-items:center;gap:8px;font-size:0.85rem;color:rgba(255,255,255,0.55)}
+.hero-trust-item svg{color:#00ff88;flex-shrink:0}
+.hero-scroll-hint{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;opacity:0.4;font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase}
+.scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,transparent,rgba(0,255,136,0.6));animation:scrollPulse 2s ease-in-out infinite}
+@keyframes scrollPulse{0%,100%{opacity:0.3;transform:scaleY(1)}50%{opacity:1;transform:scaleY(1.2)}}
+
+/* CINEMATIC SCROLL SECTION */
+#cinematic{height:250vh;position:relative}
+.cinematic-sticky{position:sticky;top:0;height:100vh;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.cinematic-bg{position:absolute;inset:0;z-index:0}
+.cinematic-img{position:absolute;inset:0;background-size:cover;background-position:center;transition:none}
+#cine-working{background-image:url('/assets/hero-working.png')}
+#cine-beach{background-image:url('/assets/hero-beach.png');opacity:0}
+.cinematic-overlay{position:absolute;inset:0;background:rgba(0,0,0,0.62);z-index:1}
+.cinematic-content{position:relative;z-index:2;text-align:center;padding:0 28px;max-width:800px}
+.cine-text{position:absolute;left:50%;transform:translateX(-50%);width:90%;max-width:700px;text-align:center;opacity:0;transition:opacity 0.5s ease}
+#cine-t1{top:50%;transform:translate(-50%,-50%);font-size:clamp(1.8rem,4vw,3.2rem);font-weight:700}
+#cine-t2{top:50%;transform:translate(-50%,-50%);font-size:clamp(1.2rem,2.5vw,1.8rem);color:rgba(255,255,255,0.85)}
+#cine-t3{top:50%;transform:translate(-50%,-50%);font-size:clamp(1.8rem,4vw,3rem);font-weight:700;color:#00ff88}
+#cine-t4{top:50%;transform:translate(-50%,-50%);font-size:clamp(2.4rem,5.5vw,4.5rem);font-weight:800;color:#00ff88;line-height:1.1}
+.cine-dots{position:absolute;right:32px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:10px;z-index:3}
+.cine-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,0.3);transition:all 0.3s ease}
+.cine-dot.active{background:#00ff88;box-shadow:0 0 8px rgba(0,255,136,0.7)}
+@media(max-width:768px){
+  #cinematic{height:auto}
+  .cinematic-sticky{position:relative;height:70vh}
+  #cine-working{display:none}
+  #cine-beach{opacity:1}
+  #cine-t4{opacity:1}
+}
+
+/* MARQUEE */
+.marquee-section{padding:60px 0;overflow:hidden;border-top:1px solid rgba(255,255,255,0.05);border-bottom:1px solid rgba(255,255,255,0.05)}
+.marquee-track{display:flex;gap:0;overflow:hidden}
+.marquee-inner{display:flex;gap:48px;animation:marqueeLeft 28s linear infinite;white-space:nowrap}
+.marquee-inner-r{animation-direction:reverse;animation-duration:22s}
+.marquee-track + .marquee-track{margin-top:18px}
+.marquee-item{display:flex;align-items:center;gap:12px;padding:10px 28px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);border-radius:100px;font-size:0.85rem;font-weight:500;color:rgba(255,255,255,0.65);flex-shrink:0}
+.marquee-item span{color:#00ff88;font-weight:700}
+@keyframes marqueeLeft{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* PROBLEM SECTION */
+#problems{padding:120px 0}
+.section-label{display:inline-flex;align-items:center;gap:10px;font-size:0.7rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#00ff88;margin-bottom:16px}
+.section-label::before,.section-label::after{content:'';width:24px;height:1px;background:#00ff88;opacity:0.5}
+.section-title{font-size:clamp(2rem,4vw,3rem);font-weight:800;line-height:1.1;letter-spacing:-0.025em;margin-bottom:16px}
+.section-sub{font-size:1.05rem;color:rgba(255,255,255,0.6);max-width:560px;line-height:1.7}
 .section-header{text-align:center;margin-bottom:64px}
 .section-header .section-sub{margin:0 auto}
+.bento-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.bento-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:32px;position:relative;overflow:hidden;transform-style:preserve-3d;transition:transform 0.25s ease,box-shadow 0.25s ease;--glow-x:50%;--glow-y:50%}
+.bento-card::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at var(--glow-x) var(--glow-y),rgba(0,255,136,0.08) 0%,transparent 60%);opacity:0;transition:opacity 0.3s ease;border-radius:18px;pointer-events:none}
+.bento-card:hover::before{opacity:1}
+.bento-card:hover{box-shadow:0 0 0 1px rgba(0,255,136,0.15),0 20px 60px rgba(0,0,0,0.4)}
+.bc-icon{width:44px;height:44px;background:rgba(0,255,136,0.1);border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:18px;color:#00ff88}
+.bc-title{font-size:1.1rem;font-weight:700;margin-bottom:8px}
+.bc-desc{font-size:0.9rem;color:rgba(255,255,255,0.55);line-height:1.6}
+.col-4{grid-column:span 4}
+.col-6{grid-column:span 6}
+.col-8{grid-column:span 8}
+.col-12{grid-column:span 12}
+@media(max-width:1024px){.col-4{grid-column:span 6}}
+@media(max-width:768px){.col-4,.col-6,.col-8{grid-column:span 12}}
 
-/* ===== BUTTONS ===== */
-.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;border-radius:var(--radius-sm);font-family:var(--font-body);font-size:0.95rem;font-weight:600;transition:all 0.22s var(--ease);cursor:pointer;position:relative;white-space:nowrap}
-.btn-primary{background:var(--accent);color:#030d06;box-shadow:0 0 0 0 var(--accent-glow);animation:btnPulse 3.5s infinite}
-.btn-primary:hover{background:#00e87a;transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,255,136,0.35);animation:none}
-.btn-secondary{background:transparent;color:var(--text-primary);border:1px solid var(--border-strong);backdrop-filter:blur(12px)}
-.btn-secondary:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-dim);transform:translateY(-2px)}
-.btn-lg{padding:17px 32px;font-size:1.05rem;border-radius:var(--radius-md)}
-.btn svg{flex-shrink:0;transition:transform 0.2s var(--ease)}
-.btn:hover svg{transform:translateX(3px)}
+/* SERVICES */
+#services{padding:120px 0;background:linear-gradient(180deg,#0a0a0a 0%,rgba(0,255,136,0.02) 50%,#0a0a0a 100%)}
+.services-bento{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.svc-card{grid-column:span 4;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:36px;position:relative;overflow:hidden;transition:all 0.25s ease;transform-style:preserve-3d;--glow-x:50%;--glow-y:50%}
+.svc-card-large{grid-column:span 8}
+.svc-card::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at var(--glow-x) var(--glow-y),rgba(0,255,136,0.09) 0%,transparent 65%);opacity:0;transition:opacity 0.3s;border-radius:20px;pointer-events:none}
+.svc-card:hover::before{opacity:1}
+.svc-card:hover{box-shadow:0 0 0 1px rgba(0,255,136,0.18),0 24px 64px rgba(0,0,0,0.45);border-color:rgba(0,255,136,0.15)}
+.svc-icon{width:52px;height:52px;background:rgba(0,255,136,0.1);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:22px;color:#00ff88}
+.svc-name{font-size:1.2rem;font-weight:700;margin-bottom:10px}
+.svc-desc{font-size:0.9rem;color:rgba(255,255,255,0.55);line-height:1.65;margin-bottom:18px}
+.svc-metric{font-size:0.85rem;font-weight:700;color:#00ff88;display:flex;align-items:center;gap:6px}
+@media(max-width:1024px){.svc-card{grid-column:span 6}.svc-card-large{grid-column:span 12}}
+@media(max-width:768px){.svc-card,.svc-card-large{grid-column:span 12}}
 
-@keyframes btnPulse{0%,100%{box-shadow:0 0 0 0 rgba(0,255,136,0)}50%{box-shadow:0 0 22px 6px rgba(0,255,136,0.2)}}
+/* STATS */
+#stats{padding:100px 0;border-top:1px solid rgba(255,255,255,0.05);border-bottom:1px solid rgba(255,255,255,0.05)}
+.stats-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:rgba(255,255,255,0.06)}
+.stat-item{background:#0a0a0a;padding:52px 28px;text-align:center}
+.stat-num{font-size:clamp(2.4rem,4vw,3.4rem);font-weight:800;color:#00ff88;letter-spacing:-0.03em;display:block;text-shadow:0 0 40px rgba(0,255,136,0.35);line-height:1;margin-bottom:10px}
+.stat-label{font-size:0.82rem;color:rgba(255,255,255,0.5);font-weight:500;line-height:1.5;max-width:120px;margin:0 auto}
+@media(max-width:1024px){.stats-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:600px){.stats-grid{grid-template-columns:repeat(2,1fr)}.stat-item{padding:36px 20px}}
 
-/* ===== NAVBAR ===== */
-.navbar{position:fixed;top:16px;left:50%;transform:translateX(-50%);width:calc(100% - 48px);max-width:1160px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-radius:var(--radius-lg);background:rgba(10,10,10,0.6);border:1px solid var(--border);backdrop-filter:blur(20px);transition:all 0.3s var(--ease)}
-.navbar.scrolled{background:rgba(10,10,10,0.88);border-color:var(--border-strong);box-shadow:0 8px 40px rgba(0,0,0,0.4)}
-.nav-logo{font-family:var(--font-head);font-size:1.15rem;font-weight:700;letter-spacing:-0.02em;display:flex;align-items:center;gap:8px}
-.nav-logo-dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px var(--accent);animation:logoPulse 2s infinite}
-@keyframes logoPulse{0%,100%{opacity:1}50%{opacity:0.5}}
-.nav-links{display:flex;align-items:center;gap:32px}
-.nav-links a{font-size:0.88rem;font-weight:500;color:var(--text-secondary);transition:color 0.2s var(--ease)}
-.nav-links a:hover{color:var(--text-primary)}
-.nav-links a.active{color:var(--accent)}
-.nav-right{display:flex;align-items:center;gap:12px}
-.nav-cta{padding:10px 20px;font-size:0.85rem;border-radius:var(--radius-sm)}
-.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none}
-.hamburger span{display:block;width:22px;height:1.5px;background:var(--text-primary);border-radius:2px;transition:all 0.25s var(--ease);transform-origin:center}
-.hamburger.open span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
-.hamburger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
-.hamburger.open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
-.mobile-menu{display:none;position:fixed;inset:0;background:rgba(10,10,10,0.97);z-index:99;flex-direction:column;align-items:center;justify-content:center;gap:32px;backdrop-filter:blur(24px)}
-.mobile-menu.open{display:flex}
-.mobile-menu a{font-family:var(--font-head);font-size:1.6rem;font-weight:600;color:var(--text-secondary);transition:color 0.2s}
-.mobile-menu a:hover{color:var(--accent)}
-.mobile-menu .btn{font-size:1rem}
+/* TIMELINE */
+#process{padding:120px 0}
+.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:0;position:relative;margin-top:64px}
+.timeline::before{content:'';position:absolute;top:36px;left:16.66%;right:16.66%;height:1px;background:linear-gradient(90deg,transparent,rgba(0,255,136,0.3),transparent);z-index:0}
+.tl-item{text-align:center;padding:0 24px;position:relative;z-index:1}
+.tl-num{width:72px;height:72px;border-radius:50%;background:#0a0a0a;border:1px solid rgba(0,255,136,0.25);display:flex;align-items:center;justify-content:center;margin:0 auto 24px;font-size:1.5rem;font-weight:800;color:#00ff88;position:relative}
+.tl-num::after{content:'';position:absolute;inset:-4px;border-radius:50%;border:1px solid rgba(0,255,136,0.08)}
+.tl-title{font-size:1.15rem;font-weight:700;margin-bottom:10px}
+.tl-desc{font-size:0.9rem;color:rgba(255,255,255,0.55);line-height:1.65}
+@media(max-width:768px){.timeline{grid-template-columns:1fr;gap:40px}.timeline::before{display:none}.tl-item{padding:0}}
 
-/* ===== HERO ===== */
-.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:140px 24px 80px;overflow:hidden}
-.hero-glow{position:absolute;top:30%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:radial-gradient(ellipse,rgba(0,255,136,0.1) 0%,transparent 65%);pointer-events:none;filter:blur(60px)}
-.hero-grid-overlay{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 40%,transparent 100%);pointer-events:none}
-.hero-content{max-width:820px;position:relative;z-index:2}
-.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(0,255,136,0.07);border:1px solid rgba(0,255,136,0.18);border-radius:100px;padding:7px 16px;font-size:0.78rem;font-weight:600;color:var(--accent);margin-bottom:28px;letter-spacing:0.04em;backdrop-filter:blur(10px)}
-.hero-badge-dot{width:6px;height:6px;border-radius:50%;background:var(--accent);animation:badgeDot 2s infinite}
-@keyframes badgeDot{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(0,255,136,0.6)}50%{opacity:0.7;box-shadow:0 0 0 4px rgba(0,255,136,0)}}
-.hero-headline{font-family:var(--font-head);font-size:clamp(3.2rem,8vw,6.4rem);font-weight:700;line-height:1.02;letter-spacing:-0.03em;margin-bottom:24px}
-.hero-sub{font-size:clamp(1rem,2vw,1.2rem);color:var(--text-secondary);max-width:560px;margin:0 auto 40px;line-height:1.7}
-.hero-sub strong{color:var(--text-primary);font-weight:600}
-.hero-ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:52px}
-.trust-badges{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
-.trust-badge{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:100px;padding:8px 16px;font-size:0.8rem;font-weight:500;color:var(--text-secondary);backdrop-filter:blur(8px);transition:all 0.2s var(--ease)}
-.trust-badge:hover{border-color:rgba(0,255,136,0.25);color:var(--text-primary)}
-.trust-badge svg{color:var(--accent);flex-shrink:0}
+/* TESTIMONIALS */
+#testimonials{padding:120px 0;background:linear-gradient(180deg,#0a0a0a 0%,rgba(0,255,136,0.015) 50%,#0a0a0a 100%)}
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:64px}
+.testi-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:32px;transition:all 0.25s ease}
+.testi-card:hover{border-color:rgba(0,255,136,0.15);box-shadow:0 16px 48px rgba(0,0,0,0.35)}
+.testi-stars{display:flex;gap:3px;margin-bottom:18px;color:#00ff88}
+.testi-quote{font-size:0.95rem;color:rgba(255,255,255,0.75);line-height:1.7;margin-bottom:22px;font-style:italic}
+.testi-quote::before{content:'\201C';font-size:1.4rem;color:#00ff88;font-style:normal;line-height:0;vertical-align:-0.3em;margin-right:2px}
+.testi-name{font-weight:700;font-size:0.95rem;margin-bottom:3px}
+.testi-biz{font-size:0.82rem;color:rgba(255,255,255,0.4)}
+@media(max-width:900px){.testi-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.testi-grid{grid-template-columns:1fr}}
 
-/* ===== MARQUEE ===== */
-.marquee-section{overflow:hidden;padding:18px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:rgba(0,255,136,0.015);position:relative;z-index:2}
-.marquee-track{display:flex;width:max-content;animation:marquee 40s linear infinite}
-.marquee-track:hover{animation-play-state:paused}
-.marquee-set{display:flex;flex-shrink:0}
-.marquee-item{display:inline-flex;align-items:center;gap:10px;padding:0 36px;font-size:0.85rem;color:var(--text-secondary);white-space:nowrap;font-weight:500}
-.marquee-sep{width:5px;height:5px;border-radius:50%;background:var(--accent);opacity:0.6;flex-shrink:0}
-.marquee-biz{color:var(--text-primary);font-weight:600}
-@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+/* PRICING */
+#pricing{padding:120px 0}
+.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:64px}
+.price-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:22px;padding:40px 36px;transition:all 0.25s ease;position:relative}
+.price-card-featured{border-color:rgba(0,255,136,0.35);box-shadow:0 0 0 1px rgba(0,255,136,0.15),0 0 60px rgba(0,255,136,0.08)}
+.price-badge{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:#00ff88;color:#030d06;font-size:0.75rem;font-weight:800;letter-spacing:0.08em;padding:5px 16px;border-radius:100px;white-space:nowrap}
+.price-name{font-size:0.85rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:12px}
+.price-amount{font-size:clamp(2.4rem,4vw,3rem);font-weight:800;letter-spacing:-0.03em;line-height:1;margin-bottom:6px}
+.price-amount span{font-size:1.1rem;font-weight:500;color:rgba(255,255,255,0.5);vertical-align:top;margin-top:6px;display:inline-block}
+.price-sub{font-size:0.85rem;color:rgba(255,255,255,0.4);margin-bottom:28px}
+.price-divider{height:1px;background:rgba(255,255,255,0.08);margin-bottom:28px}
+.price-features{display:flex;flex-direction:column;gap:12px;margin-bottom:36px}
+.price-feature{display:flex;align-items:center;gap:10px;font-size:0.9rem;color:rgba(255,255,255,0.7)}
+.price-feature svg{color:#00ff88;flex-shrink:0}
+.price-cta{display:block;text-align:center;padding:15px;border-radius:10px;font-weight:700;font-size:0.95rem;transition:all 0.22s ease}
+.price-cta-primary{background:#00ff88;color:#030d06}
+.price-cta-primary:hover{background:#00e87a;box-shadow:0 8px 32px rgba(0,255,136,0.4);transform:translateY(-2px)}
+.price-cta-outline{border:1px solid rgba(255,255,255,0.15);color:#fff}
+.price-cta-outline:hover{border-color:rgba(0,255,136,0.4);color:#00ff88;transform:translateY(-2px)}
+.price-best{font-size:0.78rem;color:rgba(255,255,255,0.35);text-align:center;margin-top:14px}
+@media(max-width:900px){.pricing-grid{grid-template-columns:1fr;max-width:460px;margin-left:auto;margin-right:auto}.price-card{margin-top:0}}
 
-/* ===== PROBLEM ===== */
-.problem-section{padding:100px 0}
-.problem-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:48px}
-.problem-item{display:flex;align-items:flex-start;gap:14px;padding:20px 24px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-md);transition:all 0.25s var(--ease);cursor:default}
-.problem-item:hover{background:var(--bg-card-hover);border-color:rgba(255,80,80,0.2)}
-.problem-icon{width:32px;height:32px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:rgba(255,60,60,0.08);border:1px solid rgba(255,60,60,0.15);border-radius:8px}
-.problem-text{font-size:0.95rem;color:var(--text-secondary);line-height:1.5;padding-top:4px}
-.problem-text strong{color:var(--text-primary)}
-.problem-resolution{text-align:center;padding:32px 40px;background:linear-gradient(135deg,rgba(0,255,136,0.06),rgba(0,255,136,0.02));border:1px solid rgba(0,255,136,0.15);border-radius:var(--radius-lg);backdrop-filter:blur(10px)}
-.problem-resolution p{font-family:var(--font-head);font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:600;line-height:1.3;letter-spacing:-0.01em}
+/* FAQ */
+#faq{padding:120px 0}
+.faq-list{max-width:720px;margin:64px auto 0;display:flex;flex-direction:column;gap:2px}
+.faq-item{border:1px solid rgba(255,255,255,0.08);border-radius:12px;overflow:hidden;background:rgba(255,255,255,0.02)}
+.faq-question{width:100%;padding:22px 28px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-weight:600;font-size:1rem;color:#fff;text-align:left;cursor:pointer;background:none;border:none;font-family:'Plus Jakarta Sans',sans-serif;transition:color 0.2s}
+.faq-question:hover{color:#00ff88}
+.faq-icon{width:22px;height:22px;border-radius:50%;border:1px solid rgba(255,255,255,0.2);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all 0.3s ease;color:rgba(255,255,255,0.5)}
+.faq-item.open .faq-icon{border-color:#00ff88;color:#00ff88;transform:rotate(45deg)}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.4s ease}
+.faq-answer-inner{padding:0 28px 22px;font-size:0.93rem;color:rgba(255,255,255,0.6);line-height:1.75}
 
-/* ===== SERVICES ===== */
-.services-section{padding:100px 0}
-.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.service-card{padding:28px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);transition:all 0.3s var(--ease);cursor:default;position:relative;overflow:hidden}
-.service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,255,136,0),transparent);transition:all 0.4s var(--ease)}
-.service-card:hover{background:var(--bg-card-hover);border-color:rgba(0,255,136,0.2);transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,0.4),0 0 40px rgba(0,255,136,0.05)}
-.service-card:hover::before{background:linear-gradient(90deg,transparent,rgba(0,255,136,0.4),transparent)}
-.service-icon-wrap{width:44px;height:44px;background:var(--accent-dim);border:1px solid rgba(0,255,136,0.2);border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:18px;color:var(--accent)}
-.service-title{font-family:var(--font-head);font-size:1.05rem;font-weight:700;margin-bottom:8px;line-height:1.3;letter-spacing:-0.01em}
-.service-desc{font-size:0.875rem;color:var(--text-secondary);line-height:1.6;margin-bottom:16px}
-.service-features{display:flex;flex-direction:column;gap:7px;margin-bottom:20px}
-.service-feature{display:flex;align-items:flex-start;gap:8px;font-size:0.83rem;color:var(--text-secondary);line-height:1.4}
-.service-feature svg{flex-shrink:0;margin-top:1px;color:var(--accent)}
-.service-result{display:inline-flex;align-items:center;gap:6px;background:rgba(0,255,136,0.07);border:1px solid rgba(0,255,136,0.15);border-radius:100px;padding:5px 12px;font-size:0.75rem;font-weight:600;color:var(--accent);letter-spacing:0.02em}
+/* FINAL CTA */
+#final-cta{padding:140px 0;text-align:center;position:relative;overflow:hidden}
+#final-cta::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(0,255,136,0.06) 0%,transparent 70%);pointer-events:none}
+.final-cta-title{font-size:clamp(2.4rem,5vw,4rem);font-weight:800;letter-spacing:-0.03em;line-height:1.1;margin-bottom:20px}
+.final-cta-sub{font-size:1.05rem;color:rgba(255,255,255,0.55);max-width:500px;margin:0 auto 44px;line-height:1.7}
+.final-trust{display:flex;align-items:center;justify-content:center;gap:36px;flex-wrap:wrap;margin-top:32px}
+.final-trust-item{font-size:0.85rem;color:rgba(255,255,255,0.45);display:flex;align-items:center;gap:7px}
+.final-trust-item svg{color:#00ff88}
 
-/* ===== STATS ===== */
-.stats-section{padding:80px 0;position:relative;overflow:hidden}
-.stats-section::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 0%,rgba(0,255,136,0.03) 50%,transparent 100%);pointer-events:none}
-.stats-divider{border:none;border-top:1px solid var(--border);margin:0}
-.stats-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:0}
-.stat-item{padding:40px 20px;text-align:center;border-right:1px solid var(--border);position:relative}
-.stat-item:last-child{border-right:none}
-.stat-number{font-family:var(--font-head);font-size:clamp(2rem,3vw,2.8rem);font-weight:700;color:var(--text-primary);letter-spacing:-0.03em;line-height:1;margin-bottom:8px;transition:color 0.3s}
-.stat-number.counting{color:var(--accent)}
-.stat-label{font-size:0.78rem;color:var(--text-muted);font-weight:500;letter-spacing:0.04em;text-transform:uppercase;line-height:1.4}
+/* FOOTER */
+footer{padding:64px 0 40px;border-top:1px solid rgba(255,255,255,0.06)}
+.footer-inner{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:48px;margin-bottom:56px}
+.footer-logo{font-size:1.1rem;font-weight:800;display:flex;align-items:center;gap:8px;margin-bottom:14px}
+.footer-tagline{font-size:0.88rem;color:rgba(255,255,255,0.45);line-height:1.6;max-width:240px}
+.footer-col-title{font-size:0.75rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:18px}
+.footer-links{display:flex;flex-direction:column;gap:11px}
+.footer-links a{font-size:0.9rem;color:rgba(255,255,255,0.55);transition:color 0.2s}
+.footer-links a:hover{color:#00ff88}
+.footer-bottom{display:flex;align-items:center;justify-content:space-between;padding-top:28px;border-top:1px solid rgba(255,255,255,0.06);font-size:0.82rem;color:rgba(255,255,255,0.3)}
+.footer-bottom a{color:rgba(255,255,255,0.3);transition:color 0.2s}
+.footer-bottom a:hover{color:#00ff88}
+@media(max-width:900px){.footer-inner{grid-template-columns:1fr 1fr;gap:36px}}
+@media(max-width:600px){.footer-inner{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:10px;text-align:center}}
 
-/* ===== HOW IT WORKS ===== */
-.hiw-section{padding:100px 0}
-.steps-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;position:relative}
-.step-card{padding:36px 32px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);transition:all 0.3s var(--ease);position:relative;overflow:hidden}
-.step-card:hover{background:var(--bg-card-hover);border-color:var(--border-strong);transform:translateY(-3px)}
-.step-number-wrap{display:flex;align-items:center;gap:16px;margin-bottom:20px}
-.step-num{font-family:var(--font-head);font-size:2.8rem;font-weight:700;color:var(--accent);line-height:1;opacity:0.25}
-.step-day-badge{background:var(--accent-dim);border:1px solid rgba(0,255,136,0.2);border-radius:100px;padding:4px 12px;font-size:0.72rem;font-weight:600;color:var(--accent);letter-spacing:0.08em;text-transform:uppercase}
-.step-title{font-family:var(--font-head);font-size:1.25rem;font-weight:700;margin-bottom:10px;letter-spacing:-0.01em}
-.step-desc{font-size:0.9rem;color:var(--text-secondary);line-height:1.65}
-.step-connector{position:absolute;top:50%;right:-10px;z-index:3}
+/* REVEAL */
+.reveal-up{opacity:0;transform:translateY(40px)}
+.word{display:inline-block;opacity:0;transform:translateY(20px);filter:blur(4px)}
 
-/* ===== TESTIMONIALS ===== */
-.testimonials-section{padding:100px 0}
-.testimonials-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
-.testimonial-card{grid-column:span 2;padding:28px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);transition:all 0.3s var(--ease);display:flex;flex-direction:column;gap:16px}
-.testimonial-card:hover{background:var(--bg-card-hover);border-color:var(--border-strong);transform:translateY(-3px);box-shadow:0 12px 40px rgba(0,0,0,0.35)}
-.testimonial-card:nth-child(4){grid-column:2/4}
-.testimonial-card:nth-child(5){grid-column:4/6}
-.quote-icon{color:rgba(0,255,136,0.2);flex-shrink:0}
-.testimonial-text{font-size:0.92rem;color:var(--text-secondary);line-height:1.7;font-style:italic;flex-grow:1}
-.testimonial-stars{display:flex;gap:3px}
-.testimonial-author{display:flex;flex-direction:column;gap:2px;padding-top:4px;border-top:1px solid var(--border)}
-.author-name{font-size:0.88rem;font-weight:600;color:var(--text-primary)}
-.author-role{font-size:0.78rem;color:var(--text-muted)}
-
-/* ===== PRICING ===== */
-.pricing-section{padding:100px 0}
-.pricing-note{text-align:center;font-size:0.82rem;color:var(--text-muted);margin-top:24px;display:flex;align-items:center;justify-content:center;gap:16px}
-.pricing-note-sep{width:4px;height:4px;border-radius:50%;background:var(--text-muted)}
-.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:start}
-.pricing-card{padding:32px 28px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-xl);transition:all 0.3s var(--ease);position:relative}
-.pricing-card:hover{background:var(--bg-card-hover);transform:translateY(-4px)}
-.pricing-card.featured{background:rgba(0,255,136,0.04);border-color:rgba(0,255,136,0.3);box-shadow:0 0 60px rgba(0,255,136,0.08),0 20px 60px rgba(0,0,0,0.4)}
-.pricing-card.featured:hover{box-shadow:0 0 80px rgba(0,255,136,0.12),0 24px 70px rgba(0,0,0,0.5)}
-.popular-badge{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#030d06;border-radius:100px;padding:4px 12px;font-size:0.7rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;margin-bottom:16px}
-.pricing-name{font-family:var(--font-head);font-size:1rem;font-weight:600;color:var(--text-secondary);margin-bottom:8px;letter-spacing:0.04em;text-transform:uppercase}
-.pricing-price{font-family:var(--font-head);font-size:clamp(2.4rem,4vw,3rem);font-weight:700;letter-spacing:-0.03em;line-height:1;margin-bottom:4px}
-.pricing-price span{font-size:1rem;font-weight:500;color:var(--text-muted);vertical-align:middle;margin-left:2px}
-.pricing-price-label{font-size:0.82rem;color:var(--text-muted);margin-bottom:16px}
-.pricing-divider{border:none;border-top:1px solid var(--border);margin:20px 0}
-.pricing-for{font-size:0.8rem;font-weight:600;color:var(--text-muted);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:10px}
-.pricing-perfect{font-size:0.88rem;color:var(--text-secondary);margin-bottom:4px}
-.pricing-features{display:flex;flex-direction:column;gap:9px;margin-bottom:24px;margin-top:16px}
-.pricing-feature{display:flex;align-items:flex-start;gap:9px;font-size:0.875rem;color:var(--text-secondary);line-height:1.45}
-.pricing-feature svg{flex-shrink:0;margin-top:1px;color:var(--accent)}
-.pricing-cta{width:100%;padding:14px;border-radius:var(--radius-md);font-size:0.92rem;font-weight:600;font-family:var(--font-body);cursor:pointer;transition:all 0.22s var(--ease);display:flex;align-items:center;justify-content:center;gap:8px}
-.pricing-cta-default{background:var(--bg-card-hover);color:var(--text-primary);border:1px solid var(--border-strong)}
-.pricing-cta-default:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-dim)}
-.pricing-cta-featured{background:var(--accent);color:#030d06;border:none;animation:btnPulse 3.5s infinite}
-.pricing-cta-featured:hover{background:#00e87a;box-shadow:0 8px 32px rgba(0,255,136,0.35);animation:none;transform:translateY(-1px)}
-.pricing-popular-for{font-size:0.78rem;color:var(--text-muted);margin-bottom:20px}
-.pricing-popular-for strong{color:var(--text-secondary)}
-
-/* ===== FAQ ===== */
-.faq-section{padding:100px 0}
-.faq-inner{max-width:760px;margin:0 auto}
-.faq-list{display:flex;flex-direction:column;gap:0}
-.faq-item{border-bottom:1px solid var(--border)}
-.faq-item:first-child{border-top:1px solid var(--border)}
-.faq-question{width:100%;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;background:none;border:none;cursor:pointer;text-align:left;font-family:var(--font-head);font-size:1rem;font-weight:600;color:var(--text-primary);transition:color 0.2s var(--ease)}
-.faq-question:hover{color:var(--accent)}
-.faq-question-text{flex:1}
-.faq-icon{width:22px;height:22px;flex-shrink:0;border:1px solid var(--border);border-radius:50%;display:flex;align-items:center;justify-content:center;transition:all 0.25s var(--ease);color:var(--text-muted)}
-.faq-item.open .faq-icon{border-color:var(--accent);color:var(--accent);background:var(--accent-dim);transform:rotate(45deg)}
-.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.38s var(--ease),padding 0.38s var(--ease)}
-.faq-item.open .faq-answer{max-height:240px}
-.faq-answer p{padding:0 0 22px;font-size:0.95rem;color:var(--text-secondary);line-height:1.7}
-
-/* ===== FINAL CTA ===== */
-.final-cta-section{padding:120px 0;text-align:center;position:relative;overflow:hidden}
-.final-cta-glow{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:700px;height:500px;background:radial-gradient(ellipse,rgba(0,255,136,0.1) 0%,transparent 65%);pointer-events:none;filter:blur(80px)}
-.final-cta-content{position:relative;z-index:2;max-width:680px;margin:0 auto}
-.final-cta-title{font-family:var(--font-head);font-size:clamp(2.2rem,5vw,3.6rem);font-weight:700;line-height:1.08;letter-spacing:-0.03em;margin-bottom:20px}
-.final-cta-sub{font-size:1.05rem;color:var(--text-secondary);line-height:1.7;margin-bottom:40px}
-.final-cta-under{margin-top:16px;font-size:0.82rem;color:var(--text-muted)}
-
-/* ===== FOOTER ===== */
-footer{background:#050505;border-top:1px solid var(--border);padding:64px 0 32px;position:relative;z-index:2}
-.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}
-.footer-brand-name{font-family:var(--font-head);font-size:1.15rem;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:8px}
-.footer-brand-name .nav-logo-dot{width:7px;height:7px}
-.footer-tagline{font-size:0.85rem;color:var(--text-muted);margin-bottom:20px;line-height:1.6;max-width:260px}
-.footer-contact{display:flex;flex-direction:column;gap:8px}
-.footer-contact-item{display:flex;align-items:center;gap:8px;font-size:0.83rem;color:var(--text-muted);transition:color 0.2s}
-.footer-contact-item:hover{color:var(--text-secondary)}
-.footer-contact-item svg{color:var(--accent);flex-shrink:0}
-.footer-heading{font-size:0.7rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--text-muted);margin-bottom:16px}
-.footer-links{display:flex;flex-direction:column;gap:10px}
-.footer-links a{font-size:0.875rem;color:var(--text-secondary);transition:color 0.2s var(--ease)}
-.footer-links a:hover{color:var(--accent)}
-.footer-bottom{display:flex;align-items:center;justify-content:space-between;padding-top:24px;border-top:1px solid var(--border)}
-.footer-copy{font-size:0.78rem;color:var(--text-muted)}
-.footer-bottom-badge{font-size:0.78rem;color:var(--text-muted);display:flex;align-items:center;gap:6px}
-.footer-bottom-badge .nav-logo-dot{width:5px;height:5px;animation:none;opacity:0.6}
-
-/* ===== SCROLL TO TOP ===== */
-.scroll-top{position:fixed;bottom:28px;right:28px;width:44px;height:44px;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--text-secondary);opacity:0;transform:translateY(10px);transition:all 0.3s var(--ease);z-index:90;backdrop-filter:blur(10px)}
-.scroll-top.visible{opacity:1;transform:translateY(0)}
-.scroll-top:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-dim)}
-
-/* ===== RESPONSIVE ===== */
-@media(max-width:1024px){
-  .stats-grid{grid-template-columns:repeat(3,1fr)}
-  .stat-item:nth-child(3){border-right:none}
-  .stat-item:nth-child(n+4){border-top:1px solid var(--border)}
-  .services-grid{grid-template-columns:repeat(2,1fr)}
-  .testimonials-grid{grid-template-columns:repeat(2,1fr)}
-  .testimonial-card{grid-column:span 1}
-  .testimonial-card:nth-child(4){grid-column:span 1}
-  .testimonial-card:nth-child(5){grid-column:span 1}
-  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
-}
-@media(max-width:768px){
-  .navbar{top:10px;width:calc(100% - 24px);padding:12px 16px}
-  .nav-links,.nav-cta{display:none}
-  .hamburger{display:flex}
-  .hero-headline{font-size:clamp(2.6rem,11vw,4rem)}
-  .problem-grid{grid-template-columns:1fr}
-  .services-grid{grid-template-columns:1fr}
-  .steps-grid{grid-template-columns:1fr}
-  .pricing-grid{grid-template-columns:1fr;max-width:440px;margin:0 auto}
-  .testimonials-grid{grid-template-columns:1fr;display:flex;flex-direction:column}
-  .stats-grid{grid-template-columns:repeat(2,1fr)}
-  .stat-item:nth-child(2n){border-right:none}
-  .stat-item:nth-child(n+3){border-top:1px solid var(--border)}
-  .stat-item:nth-child(3){border-right:1px solid var(--border)}
-  .footer-grid{grid-template-columns:1fr}
-  .footer-bottom{flex-direction:column;gap:8px;text-align:center}
-}
-@media(max-width:480px){
-  .hero-ctas{flex-direction:column;align-items:center}
-  .btn{justify-content:center}
-  .trust-badges{gap:8px}
-  .trust-badge{font-size:0.73rem;padding:6px 12px}
-}
-@media(prefers-reduced-motion:reduce){
-  *{animation-duration:0.01ms!important;transition-duration:0.01ms!important}
-  .reveal{opacity:1;transform:none}
-  #particles{display:none}
-}
-
-/* ===== SCROLL HERO ===== */
-.scroll-hero{height:250vh;position:relative;z-index:2}
-.scroll-hero-sticky{position:sticky;top:0;height:100vh;overflow:hidden}
-.scroll-hero-img{position:absolute;inset:0;background-size:cover;background-position:center;transition:none}
-.scroll-hero-img-1{background-image:url('/assets/hero-working.png');z-index:1}
-.scroll-hero-img-2{background-image:url('/assets/hero-beach.png');z-index:2;opacity:0}
-.scroll-hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.65) 100%);z-index:3}
-.scroll-hero-content{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:4;text-align:center;padding:0 24px}
-.scroll-hero-eyebrow{font-size:0.72rem;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--accent);margin-bottom:20px;display:inline-flex;align-items:center;gap:10px}
-.scroll-hero-eyebrow::before,.scroll-hero-eyebrow::after{content:'';width:28px;height:1px;background:var(--accent);opacity:0.6}
-.scroll-hero-headline{font-family:var(--font-head);font-size:clamp(2.6rem,6.5vw,5.2rem);font-weight:700;color:#fff;line-height:1.08;letter-spacing:-0.03em;max-width:820px}
-.scroll-hero-progress{position:absolute;bottom:40px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:4}
-.scroll-hero-pip{width:32px;height:3px;border-radius:2px;background:rgba(255,255,255,0.25);transition:background 0.3s,width 0.3s}
-.scroll-hero-pip.active{background:var(--accent);width:56px}
-@media(max-width:768px){
-  .scroll-hero{height:auto}
-  .scroll-hero-sticky{position:relative;height:80vw;min-height:340px;max-height:520px}
-  .scroll-hero-img-1{display:none}
-  .scroll-hero-img-2{opacity:1}
-}
+/* MAGNETIC */
+.magnetic{display:inline-flex}
 </style>
 </head>
 <body>
 
-<canvas id="particles"></canvas>
+<!-- LOADER -->
+<div id="loader">
+  <div id="loader-logo">SalveNano AI</div>
+</div>
 
-<!-- ===== NAVBAR ===== -->
-<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
-  <a href="#home" class="nav-logo" aria-label="SalveNano AI home">
-    <span class="nav-logo-dot" aria-hidden="true"></span>
-    SalveNano AI
-  </a>
-  <div class="nav-links" role="list">
-    <a href="#services" role="listitem">Services</a>
-    <a href="#results" role="listitem">Results</a>
-    <a href="#pricing" role="listitem">Pricing</a>
-    <a href="#faq" role="listitem">FAQ</a>
-  </div>
-  <div class="nav-right">
-    <a href="#contact" class="btn btn-primary nav-cta">Get Free Audit</a>
-    <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+<!-- CURSOR -->
+<div id="cursor"></div>
+
+<!-- NAV -->
+<nav id="main-nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <div class="nav-logo-dot"></div>
+      SalveNano AI
+    </a>
+    <div class="nav-links">
+      <a href="/services.html">Services</a>
+      <a href="#stats">Results</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a href="https://calendly.com/salvenano" target="_blank" class="nav-cta magnetic">Get Free Audit</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
   </div>
 </nav>
 
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
-  <a href="#services" class="mobile-link">Services</a>
-  <a href="#results" class="mobile-link">Results</a>
-  <a href="#pricing" class="mobile-link">Pricing</a>
-  <a href="#faq" class="mobile-link">FAQ</a>
-  <a href="#contact" class="btn btn-primary btn-lg">Get Your Free Audit</a>
+<!-- MOBILE NAV -->
+<div class="nav-mobile" id="mobile-nav">
+  <button class="nav-mobile-close" id="nav-close">&#x2715;</button>
+  <a href="/services.html">Services</a>
+  <a href="#stats">Results</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#faq">FAQ</a>
+  <a href="https://calendly.com/salvenano" target="_blank" style="color:#00ff88;font-weight:800">Get Free Audit</a>
 </div>
 
-<!-- ===== HERO ===== -->
-<section class="hero" id="home" aria-labelledby="hero-headline">
-  <div class="hero-glow" aria-hidden="true"></div>
-  <div class="hero-grid-overlay" aria-hidden="true"></div>
-  <div class="hero-content reveal">
-    <div class="hero-badge">
-      <span class="hero-badge-dot" aria-hidden="true"></span>
-      Miami's Most Trusted AI Agency
+<!-- HERO -->
+<section id="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-content">
+    <div class="hero-badge reveal-up">
+      <div class="hero-badge-dot"></div>
+      Miami's #1 AI Automation Agency
     </div>
-    <h1 class="hero-headline" id="hero-headline">
-      Miami's <span class="text-accent">#1 AI</span><br>
-      Automation Agency
+    <h1 class="hero-title reveal-up" id="hero-title">
+      Miami's #1<br><span class="accent">AI Automation</span><br>Agency
     </h1>
-    <p class="hero-sub">
-      We build AI systems that run your business while you sleep.<br>
-      <strong>50+ Miami businesses already automated.</strong>
-    </p>
-    <div class="hero-ctas">
-      <a href="#contact" class="btn btn-primary btn-lg">
-        Get Your Free Audit
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <p class="hero-sub reveal-up" id="hero-sub">We build AI systems that run your business while you sleep.</p>
+    <div class="hero-ctas reveal-up">
+      <a href="https://calendly.com/salvenano" target="_blank" class="btn btn-primary magnetic">
+        Get My Free Audit
+        <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
       </a>
-      <a href="#services" class="btn btn-secondary btn-lg">See Our Work</a>
+      <a href="/services.html" class="btn btn-outline magnetic">
+        See Our Systems
+        <i data-lucide="chevron-right" style="width:16px;height:16px"></i>
+      </a>
     </div>
-    <div class="trust-badges" role="list" aria-label="Trust indicators">
-      <div class="trust-badge" role="listitem">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <div class="hero-trust reveal-up">
+      <div class="hero-trust-item">
+        <i data-lucide="check-circle" style="width:15px;height:15px"></i>
         50+ Businesses Automated
       </div>
-      <div class="trust-badge" role="listitem">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-        4.9&#9733; Rating
+      <div class="hero-trust-item">
+        <i data-lucide="check-circle" style="width:15px;height:15px"></i>
+        Setup in 14 Days
       </div>
-      <div class="trust-badge" role="listitem">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/><path d="M8 5v1.5m0 3V11m-1.5-4.5h2.5a1 1 0 010 2H7a1 1 0 000 2h2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        $2.1M Saved
-      </div>
-      <div class="trust-badge" role="listitem">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1.5a5 5 0 00-5 5c0 4 5 8 5 8s5-4 5-8a5 5 0 00-5-5zm0 7a2 2 0 110-4 2 2 0 010 4z" fill="currentColor"/></svg>
-        Miami Based
+      <div class="hero-trust-item">
+        <i data-lucide="check-circle" style="width:15px;height:15px"></i>
+        $2.1M+ Saved for Clients
       </div>
     </div>
   </div>
-</section>
-
-<!-- ===== SCROLL HERO ===== -->
-<section class="scroll-hero" id="scrollHero" aria-label="Scroll-driven hero visual">
-  <div class="scroll-hero-sticky">
-    <div class="scroll-hero-img scroll-hero-img-1" role="img" aria-label="Business owner working late at a laptop"></div>
-    <div class="scroll-hero-img scroll-hero-img-2" id="scrollHeroBeach" role="img" aria-label="Person relaxing on a Miami beach"></div>
-    <div class="scroll-hero-overlay" aria-hidden="true"></div>
-    <div class="scroll-hero-content">
-      <span class="scroll-hero-eyebrow">The SalveNano Promise</span>
-      <h2 class="scroll-hero-headline">What if your business<br>ran itself?</h2>
-    </div>
-    <div class="scroll-hero-progress" aria-hidden="true">
-      <div class="scroll-hero-pip active" id="scrollPip1"></div>
-      <div class="scroll-hero-pip" id="scrollPip2"></div>
-    </div>
+  <div class="hero-scroll-hint">
+    <div class="scroll-line"></div>
+    Scroll
   </div>
 </section>
 
-<!-- ===== MARQUEE ===== -->
-<div class="marquee-section" aria-label="Client results ticker" aria-live="off">
-  <div class="marquee-track" aria-hidden="true">
-    <div class="marquee-set">
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Dental Office</span>&nbsp;— Saved 25 hrs/week</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Restaurant</span>&nbsp;— 30% more bookings</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Law Firm</span>&nbsp;— $3,400/mo saved</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Luxury Salon</span>&nbsp;— Zero missed calls</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Real Estate Agency</span>&nbsp;— 2x more leads</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">HVAC Company</span>&nbsp;— ROI in 30 days</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Medical Practice</span>&nbsp;— 60% fewer no-shows</span>
+<!-- CINEMATIC SCROLL -->
+<div id="cinematic">
+  <div class="cinematic-sticky">
+    <div class="cinematic-bg">
+      <div class="cinematic-img" id="cine-working"></div>
+      <div class="cinematic-img" id="cine-beach"></div>
+      <div class="cinematic-overlay"></div>
     </div>
-    <div class="marquee-set">
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Dental Office</span>&nbsp;— Saved 25 hrs/week</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Restaurant</span>&nbsp;— 30% more bookings</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Law Firm</span>&nbsp;— $3,400/mo saved</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Luxury Salon</span>&nbsp;— Zero missed calls</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Real Estate Agency</span>&nbsp;— 2x more leads</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">HVAC Company</span>&nbsp;— ROI in 30 days</span>
-      <span class="marquee-item"><span class="marquee-sep"></span><span class="marquee-biz">Medical Practice</span>&nbsp;— 60% fewer no-shows</span>
+    <div class="cinematic-content">
+      <div class="cine-text" id="cine-t1">Sound familiar?</div>
+      <div class="cine-text" id="cine-t2">Missed calls. Endless admin. 60-hour weeks.</div>
+      <div class="cine-text" id="cine-t3">There is a better way.</div>
+      <div class="cine-text" id="cine-t4">Your Business.<br>Automated.</div>
+    </div>
+    <div class="cine-dots">
+      <div class="cine-dot active" id="dot-0"></div>
+      <div class="cine-dot" id="dot-1"></div>
+      <div class="cine-dot" id="dot-2"></div>
+      <div class="cine-dot" id="dot-3"></div>
     </div>
   </div>
 </div>
 
-<!-- ===== PROBLEM ===== -->
-<section class="problem-section" id="about" aria-labelledby="problem-title">
-  <div class="container">
-    <div class="section-header reveal">
-      <div class="section-label">Sound Familiar?</div>
-      <h2 class="section-title" id="problem-title">You Didn't Start a Business<br>to Work <span class="text-accent">This Hard</span></h2>
-      <p class="section-sub">Every Miami business owner we talk to says the same things. Does this sound like you?</p>
-    </div>
-    <div class="problem-grid">
-      <div class="problem-item reveal reveal-d1">
-        <div class="problem-icon" aria-hidden="true">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="rgba(255,100,100,0.8)" stroke-width="1.5"/><path d="M5.5 5.5l5 5M10.5 5.5l-5 5" stroke="rgba(255,100,100,0.9)" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </div>
-        <p class="problem-text">You're working <strong>60-hour weeks</strong> and still falling behind</p>
-      </div>
-      <div class="problem-item reveal reveal-d2">
-        <div class="problem-icon" aria-hidden="true">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="rgba(255,100,100,0.8)" stroke-width="1.5"/><path d="M5.5 5.5l5 5M10.5 5.5l-5 5" stroke="rgba(255,100,100,0.9)" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </div>
-        <p class="problem-text">Leads <strong>slip through the cracks</strong> while you're with customers</p>
-      </div>
-      <div class="problem-item reveal reveal-d3">
-        <div class="problem-icon" aria-hidden="true">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="rgba(255,100,100,0.8)" stroke-width="1.5"/><path d="M5.5 5.5l5 5M10.5 5.5l-5 5" stroke="rgba(255,100,100,0.9)" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </div>
-        <p class="problem-text">Staff wastes hours on <strong>tasks a robot could do</strong> in seconds</p>
-      </div>
-      <div class="problem-item reveal reveal-d4">
-        <div class="problem-icon" aria-hidden="true">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="rgba(255,100,100,0.8)" stroke-width="1.5"/><path d="M5.5 5.5l5 5M10.5 5.5l-5 5" stroke="rgba(255,100,100,0.9)" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </div>
-        <p class="problem-text">You've tried <strong>software before</strong> and it never stuck</p>
-      </div>
-      <div class="problem-item reveal reveal-d5">
-        <div class="problem-icon" aria-hidden="true">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="rgba(255,100,100,0.8)" stroke-width="1.5"/><path d="M5.5 5.5l5 5M10.5 5.5l-5 5" stroke="rgba(255,100,100,0.9)" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </div>
-        <p class="problem-text">Your competitors are <strong>automating and pulling ahead</strong></p>
-      </div>
-      <div class="problem-item reveal reveal-d6">
-        <div class="problem-icon" aria-hidden="true">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="rgba(255,100,100,0.8)" stroke-width="1.5"/><path d="M5.5 5.5l5 5M10.5 5.5l-5 5" stroke="rgba(255,100,100,0.9)" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </div>
-        <p class="problem-text">You don't have time to <strong>figure out AI yourself</strong></p>
-      </div>
-    </div>
-    <div class="problem-resolution reveal">
-      <p>SalveNano fixes all of this.&nbsp;&nbsp;<span class="text-accent">In 14 days or less.</span></p>
+<!-- MARQUEE -->
+<div class="marquee-section">
+  <div class="marquee-track">
+    <div class="marquee-inner" id="marquee1">
+      <div class="marquee-item">Coral Gables Dental <span>+40% leads</span></div>
+      <div class="marquee-item">La Cocina Wynwood <span>Runs on autopilot</span></div>
+      <div class="marquee-item">Klein Law Brickell <span>+40% revenue</span></div>
+      <div class="marquee-item">Luxe Salon South Beach <span>Booked 3 weeks out</span></div>
+      <div class="marquee-item">Mendez HVAC Doral <span>ROI in 30 days</span></div>
+      <div class="marquee-item">Brickell Realty Group <span>35% more deals</span></div>
+      <div class="marquee-item">Wynwood Studio <span>20 hrs saved weekly</span></div>
+      <div class="marquee-item">Coral Gables Dental <span>+40% leads</span></div>
+      <div class="marquee-item">La Cocina Wynwood <span>Runs on autopilot</span></div>
+      <div class="marquee-item">Klein Law Brickell <span>+40% revenue</span></div>
+      <div class="marquee-item">Luxe Salon South Beach <span>Booked 3 weeks out</span></div>
+      <div class="marquee-item">Mendez HVAC Doral <span>ROI in 30 days</span></div>
     </div>
   </div>
-</section>
-
-<!-- ===== SERVICES ===== -->
-<section class="services-section" id="services" aria-labelledby="services-title">
-  <div class="container">
-    <div class="section-header reveal">
-      <div class="section-label">What We Build</div>
-      <h2 class="section-title" id="services-title">AI Systems That Work <span class="text-accent">24/7</span></h2>
-      <p class="section-sub">Six battle-tested automation systems, each built for the specific chaos of running a Miami business.</p>
-    </div>
-    <div class="services-grid">
-
-      <div class="service-card reveal reveal-d1">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6c0-1.1.9-2 2-2h14a2 2 0 012 2v9a2 2 0 01-2 2H9l-4 3v-3H5a2 2 0 01-2-2V6z"/></svg>
-        </div>
-        <h3 class="service-title">AI Receptionist &amp; Customer Service</h3>
-        <p class="service-desc">24/7 intelligent chatbot handles every inquiry, booking, and FAQ — so no lead ever goes unanswered.</p>
-        <ul class="service-features">
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Never miss another lead at 2am</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Speaks English and Spanish</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Handles FAQs, bookings, and escalations</li>
-        </ul>
-        <div class="service-result">
-          <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v4l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/></svg>
-          avg 40% more leads captured
-        </div>
-      </div>
-
-      <div class="service-card reveal reveal-d2">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
-        </div>
-        <h3 class="service-title">Smart Appointment Automation</h3>
-        <p class="service-desc">Auto-scheduling, reminders, follow-ups, and rescheduling — integrated with your existing calendar.</p>
-        <ul class="service-features">
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Integrates with your existing calendar</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Reduces no-shows by 60%</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Automated reminders and follow-ups</li>
-        </ul>
-        <div class="service-result">
-          <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v4l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/></svg>
-          avg 8 hours saved per week
-        </div>
-      </div>
-
-      <div class="service-card reveal reveal-d3">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z"/><path d="M14 2v6h6M8 13h2M8 17h6"/></svg>
-        </div>
-        <h3 class="service-title">Invoice &amp; Admin AI</h3>
-        <p class="service-desc">Auto-generate invoices, chase payments, and eliminate paperwork — connected to your existing tools.</p>
-        <ul class="service-features">
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Connects to QuickBooks, Stripe, Square</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Auto-chases late payments</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Zero manual paperwork</li>
-        </ul>
-        <div class="service-result">
-          <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v4l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/></svg>
-          avg $1,200/mo recovered
-        </div>
-      </div>
-
-      <div class="service-card reveal reveal-d1">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-1.5 6h11M9 21a1 1 0 100-2 1 1 0 000 2zm8 0a1 1 0 100-2 1 1 0 000 2z"/></svg>
-        </div>
-        <h3 class="service-title">AI Marketing Engine</h3>
-        <p class="service-desc">Automated social posts, email campaigns, and review requests — your marketing runs without you.</p>
-        <ul class="service-features">
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Automated social posts and emails</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Responds to Google reviews automatically</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Requests 5-star reviews at the right time</li>
-        </ul>
-        <div class="service-result">
-          <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v4l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/></svg>
-          avg 2x more 5-star reviews in 90 days
-        </div>
-      </div>
-
-      <div class="service-card reveal reveal-d2">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-        </div>
-        <h3 class="service-title">Lead Follow-Up AI</h3>
-        <p class="service-desc">Responds to every new lead within 60 seconds and nurtures cold leads automatically for 6 months.</p>
-        <ul class="service-features">
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>First response under 60 seconds</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>6-month automated nurture sequences</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Works across SMS, email, and chat</li>
-        </ul>
-        <div class="service-result">
-          <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v4l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/></svg>
-          avg 35% more deals closed
-        </div>
-      </div>
-
-      <div class="service-card reveal reveal-d3">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.1 4.9A9 9 0 104.9 19.1M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
-        </div>
-        <h3 class="service-title">Custom AI Workflows</h3>
-        <p class="service-desc">Anything repetitive in your business, we automate it. Custom-built for your exact operations.</p>
-        <ul class="service-features">
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Built from scratch for your business</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Integrates with your existing tools</li>
-          <li class="service-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Unlimited scope, any industry</li>
-        </ul>
-        <div class="service-result">
-          <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v4l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/></svg>
-          avg 20+ hours saved per week
-        </div>
-      </div>
-
+  <div class="marquee-track" style="margin-top:12px">
+    <div class="marquee-inner marquee-inner-r" id="marquee2">
+      <div class="marquee-item">Doral Med Spa <span>$1,200/mo recovered</span></div>
+      <div class="marquee-item">South Beach Hospitality <span>2x 5-star reviews</span></div>
+      <div class="marquee-item">Brickell Finance Group <span>60 sec response</span></div>
+      <div class="marquee-item">Coconut Grove Cafe <span>No-show rate -70%</span></div>
+      <div class="marquee-item">Hialeah Auto Group <span>Zero cold leads</span></div>
+      <div class="marquee-item">Aventura Luxury Realty <span>Closed faster</span></div>
+      <div class="marquee-item">Miami Beach Medspa <span>Fully automated</span></div>
+      <div class="marquee-item">Doral Med Spa <span>$1,200/mo recovered</span></div>
+      <div class="marquee-item">South Beach Hospitality <span>2x 5-star reviews</span></div>
+      <div class="marquee-item">Brickell Finance Group <span>60 sec response</span></div>
+      <div class="marquee-item">Coconut Grove Cafe <span>No-show rate -70%</span></div>
+      <div class="marquee-item">Hialeah Auto Group <span>Zero cold leads</span></div>
     </div>
   </div>
-</section>
+</div>
 
-<!-- ===== STATS ===== -->
-<section class="stats-section" id="stats" aria-labelledby="stats-label">
-  <hr class="stats-divider">
+<!-- PROBLEM SECTION -->
+<section id="problems">
   <div class="container">
-    <div class="stats-grid" role="list" aria-label="Company statistics">
-      <div class="stat-item reveal reveal-d1" role="listitem">
-        <div class="stat-number" data-target="50" data-suffix="+" aria-label="50 plus Miami businesses automated">0</div>
-        <div class="stat-label">Miami Businesses Automated</div>
-      </div>
-      <div class="stat-item reveal reveal-d2" role="listitem">
-        <div class="stat-number" data-target="2100000" data-prefix="$" data-format="money" aria-label="Over 2.1 million dollars saved for clients">$0</div>
-        <div class="stat-label">Saved For Clients</div>
-      </div>
-      <div class="stat-item reveal reveal-d3" role="listitem">
-        <div class="stat-number" data-target="4.9" data-suffix=" / 5.0" data-decimal="1" aria-label="4.9 out of 5.0 average rating">0</div>
-        <div class="stat-label">Average Rating</div>
-      </div>
-      <div class="stat-item reveal reveal-d4" role="listitem">
-        <div class="stat-number" data-target="14" data-suffix=" Days" aria-label="14 days average setup time">0</div>
-        <div class="stat-label">Average Setup Time</div>
-      </div>
-      <div class="stat-item reveal reveal-d5" role="listitem">
-        <div class="stat-number" data-target="20" data-suffix="+" aria-label="20 plus hours saved per week per client">0</div>
-        <div class="stat-label">Hours Saved / Week / Client</div>
-      </div>
-      <div class="stat-item reveal reveal-d6" role="listitem">
-        <div class="stat-number" data-target="0" data-suffix="" aria-label="Zero businesses have ever left">0</div>
-        <div class="stat-label">Businesses Have Ever Left</div>
-      </div>
+    <div class="section-header">
+      <div class="section-label">The Problem</div>
+      <h2 class="section-title reveal-up">You didn't start a business<br>to work this hard</h2>
+      <p class="section-sub reveal-up">Miami business owners are drowning in tasks that AI can handle instantly — for a fraction of the cost.</p>
     </div>
-  </div>
-  <hr class="stats-divider">
-</section>
-
-<!-- ===== HOW IT WORKS ===== -->
-<section class="hiw-section" id="results" aria-labelledby="hiw-title">
-  <div class="container">
-    <div class="section-header reveal">
-      <div class="section-label">The Process</div>
-      <h2 class="section-title" id="hiw-title">Up and Running in <span class="text-accent">14 Days</span></h2>
-      <p class="section-sub">No long onboarding. No confusing dashboards. We handle everything and hand you a system that just works.</p>
-    </div>
-    <div class="steps-grid">
-      <div class="step-card reveal reveal-d1">
-        <div class="step-number-wrap">
-          <span class="step-num" aria-hidden="true">01</span>
-          <span class="step-day-badge">Day 1</span>
-        </div>
-        <h3 class="step-title">Free Audit</h3>
-        <p class="step-desc">We sit down with you (virtually or in-person, we're local) and map every time and money leak in your business. You'll know exactly what's possible before spending a dollar.</p>
+    <div class="bento-grid">
+      <div class="bento-card col-4 reveal-up">
+        <div class="bc-icon"><i data-lucide="phone-missed" style="width:20px;height:20px"></i></div>
+        <div class="bc-title">Missed Calls = Missed Money</div>
+        <div class="bc-desc">Every unanswered call after hours is revenue walking out the door. Competitors who answer 24/7 win.</div>
       </div>
-      <div class="step-card reveal reveal-d2">
-        <div class="step-number-wrap">
-          <span class="step-num" aria-hidden="true">02</span>
-          <span class="step-day-badge">Days 2–10</span>
-        </div>
-        <h3 class="step-title">Custom Build</h3>
-        <p class="step-desc">Our team builds your AI systems from scratch, tailored to your exact operations. No off-the-shelf software. Every workflow designed specifically for your business.</p>
+      <div class="bento-card col-4 reveal-up">
+        <div class="bc-icon"><i data-lucide="clock" style="width:20px;height:20px"></i></div>
+        <div class="bc-title">60-Hour Work Weeks</div>
+        <div class="bc-desc">You're the CEO, the receptionist, the scheduler, and the follow-up team. That ends now.</div>
       </div>
-      <div class="step-card reveal reveal-d3">
-        <div class="step-number-wrap">
-          <span class="step-num" aria-hidden="true">03</span>
-          <span class="step-day-badge">Day 14</span>
-        </div>
-        <h3 class="step-title">Go Live</h3>
-        <p class="step-desc">Your automations launch. From day one, you start recapturing leads, saving hours, and watching the system work. The ROI begins immediately.</p>
+      <div class="bento-card col-4 reveal-up">
+        <div class="bc-icon"><i data-lucide="calendar-x" style="width:20px;height:20px"></i></div>
+        <div class="bc-title">No-Show Nightmare</div>
+        <div class="bc-desc">Manual appointment reminders are inconsistent. Automated AI reminders cut no-shows by 70%.</div>
       </div>
-      <div class="step-card reveal reveal-d4">
-        <div class="step-number-wrap">
-          <span class="step-num" aria-hidden="true">04</span>
-          <span class="step-day-badge">Monthly</span>
+      <div class="bento-card col-6 reveal-up">
+        <div class="bc-icon"><i data-lucide="mail-x" style="width:20px;height:20px"></i></div>
+        <div class="bc-title">Leads Falling Through the Cracks</div>
+        <div class="bc-desc">Studies show 78% of customers buy from the first business that responds. If it takes you hours, they're gone. Our AI responds in under 60 seconds, 24/7, in English and Spanish.</div>
+      </div>
+      <div class="bento-card col-6 reveal-up">
+        <div class="bc-icon"><i data-lucide="file-x" style="width:20px;height:20px"></i></div>
+        <div class="bc-title">Invoices Paid Late. Or Never.</div>
+        <div class="bc-desc">Chasing payments manually is demoralizing and time-consuming. AI handles follow-up automatically — politely, persistently, and effectively. Average client recovers $1,200/mo.</div>
+      </div>
+      <div class="bento-card col-12 reveal-up" style="background:rgba(0,255,136,0.04);border-color:rgba(0,255,136,0.12)">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center">
+          <div>
+            <div class="bc-icon"><i data-lucide="trending-down" style="width:20px;height:20px"></i></div>
+            <div class="bc-title" style="font-size:1.3rem">The Cost of Doing Nothing</div>
+            <div class="bc-desc">Miami business owners lose an average of $4,200/month in missed opportunities and wasted admin time. That's $50,400 per year — and it compounds every year you wait.</div>
+          </div>
+          <div style="text-align:center">
+            <div style="font-size:clamp(3rem,6vw,5rem);font-weight:800;color:#00ff88;line-height:1">$50K+</div>
+            <div style="font-size:0.9rem;color:rgba(255,255,255,0.5);margin-top:8px">lost per year on average</div>
+          </div>
         </div>
-        <h3 class="step-title">Ongoing Support</h3>
-        <p class="step-desc">We monitor, optimize, and expand your systems every month. As your business grows, your AI grows with it. You'll never deal with this alone.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== TESTIMONIALS ===== -->
-<section class="testimonials-section" id="testimonials" aria-labelledby="testimonials-title">
+<!-- SERVICES -->
+<section id="services">
   <div class="container">
-    <div class="section-header reveal">
-      <div class="section-label">Real Results</div>
-      <h2 class="section-title" id="testimonials-title">Miami Businesses <span class="text-accent">Already Winning</span></h2>
-      <p class="section-sub">From Brickell to South Beach, Coral Gables to Wynwood — these are real business owners, real results.</p>
+    <div class="section-header">
+      <div class="section-label">Our Systems</div>
+      <h2 class="section-title reveal-up">AI Systems That Work<br>24/7 So You Don't Have To</h2>
+      <p class="section-sub reveal-up">Six battle-tested automation systems, built specifically for Miami businesses.</p>
     </div>
-    <div class="testimonials-grid" role="list">
-
-      <article class="testimonial-card reveal reveal-d1" role="listitem">
-        <svg class="quote-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M6 12c0-3.3 2.2-5.5 6.5-5.5V10c-2.2 0-3.3 1.1-3.3 3.3v1.1H12V20H5v-5.5L6 12zm13 0c0-3.3 2.2-5.5 6.5-5.5V10c-2.2 0-3.3 1.1-3.3 3.3v1.1H25V20h-7v-5.5L19 12z" fill="rgba(0,255,136,0.25)"/></svg>
-        <p class="testimonial-text">"SalveNano transformed my dental practice. We went from drowning in admin to running like a machine. Saved us 25 hours a week and $2,800 a month. I wish I had done this years ago."</p>
-        <div class="testimonial-stars" aria-label="5 out of 5 stars">
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-        </div>
-        <div class="testimonial-author">
-          <span class="author-name">Dr. James Rodriguez</span>
-          <span class="author-role">Coral Gables Dental</span>
-        </div>
-      </article>
-
-      <article class="testimonial-card reveal reveal-d2" role="listitem">
-        <svg class="quote-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M6 12c0-3.3 2.2-5.5 6.5-5.5V10c-2.2 0-3.3 1.1-3.3 3.3v1.1H12V20H5v-5.5L6 12zm13 0c0-3.3 2.2-5.5 6.5-5.5V10c-2.2 0-3.3 1.1-3.3 3.3v1.1H25V20h-7v-5.5L19 12z" fill="rgba(0,255,136,0.25)"/></svg>
-        <p class="testimonial-text">"I was skeptical about AI but these guys made it simple. My restaurant now handles reservations, reminders, and reviews automatically. Best business decision I've made in 10 years."</p>
-        <div class="testimonial-stars" aria-label="5 out of 5 stars">
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-        </div>
-        <div class="testimonial-author">
-          <span class="author-name">Maria Sanchez</span>
-          <span class="author-role">La Cocina Miami, Wynwood</span>
-        </div>
-      </article>
-
-      <article class="testimonial-card reveal reveal-d3" role="listitem">
-        <svg class="quote-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M6 12c0-3.3 2.2-5.5 6.5-5.5V10c-2.2 0-3.3 1.1-3.3 3.3v1.1H12V20H5v-5.5L6 12zm13 0c0-3.3 2.2-5.5 6.5-5.5V10c-2.2 0-3.3 1.1-3.3 3.3v1.1H25V20h-7v-5.5L19 12z" fill="rgba(0,255,136,0.25)"/></svg>
-        <p class="testimonial-text">"As a real estate attorney, I was losing leads constantly. SalveNano built us an AI that responds to every inquiry instantly. Revenue is up 40% since we started. Game-changer for Brickell."</p>
-        <div class="testimonial-stars" aria-label="5 out of 5 stars">
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-        </div>
-        <div class="testimonial-author">
-          <span class="author-name">David Klein</span>
-          <span class="author-role">Klein Law Group, Brickell</span>
-        </div>
-      </article>
-
-      <article class="testimonial-card reveal reveal-d4" role="listitem">
-        <svg class="quote-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M6 12c0-3.3 2.2-5.5 6.5-5.5V10c-2.2 0-3.3 1.1-3.3 3.3v1.1H12V20H5v-5.5L6 12zm13 0c0-3.3 2.2-5.5 6.5-5.5V10c-2.2 0-3.3 1.1-3.3 3.3v1.1H25V20h-7v-5.5L19 12z" fill="rgba(0,255,136,0.25)"/></svg>
-        <p class="testimonial-text">"My salon was missing 15–20 calls a day. Now our AI handles everything — bookings, reminders, the works. We're booked out 3 weeks in advance for the first time ever."</p>
-        <div class="testimonial-stars" aria-label="5 out of 5 stars">
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-        </div>
-        <div class="testimonial-author">
-          <span class="author-name">Sofia Reyes</span>
-          <span class="author-role">Luxe Salon, South Beach</span>
-        </div>
-      </article>
-
-      <article class="testimonial-card reveal reveal-d5" role="listitem">
-        <svg class="quote-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M6 12c0-3.3 2.2-5.5 6.5-5.5V10c-2.2 0-3.3 1.1-3.3 3.3v1.1H12V20H5v-5.5L6 12zm13 0c0-3.3 2.2-5.5 6.5-5.5V10c-2.2 0-3.3 1.1-3.3 3.3v1.1H25V20h-7v-5.5L19 12z" fill="rgba(0,255,136,0.25)"/></svg>
-        <p class="testimonial-text">"The ROI was immediate. Within 30 days we recovered the entire cost of the service. Now it just prints money in the background. SalveNano is the best investment I've made for Mendez HVAC."</p>
-        <div class="testimonial-stars" aria-label="5 out of 5 stars">
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="#00ff88" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-        </div>
-        <div class="testimonial-author">
-          <span class="author-name">Carlos Mendez</span>
-          <span class="author-role">Mendez HVAC, Doral</span>
-        </div>
-      </article>
-
+    <div class="services-bento">
+      <div class="svc-card svc-card-large reveal-up">
+        <div class="svc-icon"><i data-lucide="phone" style="width:24px;height:24px"></i></div>
+        <div class="svc-name">AI Receptionist</div>
+        <div class="svc-desc">24/7 call and live chat handling in English and Spanish. Never miss a lead again. Your AI receptionist answers instantly, qualifies prospects, books appointments, and handles FAQs — sounding completely natural.</div>
+        <div class="svc-metric"><i data-lucide="trending-up" style="width:14px;height:14px"></i> Avg 40% more leads captured</div>
+      </div>
+      <div class="svc-card reveal-up">
+        <div class="svc-icon"><i data-lucide="calendar-check" style="width:24px;height:24px"></i></div>
+        <div class="svc-name">Appointment Automation</div>
+        <div class="svc-desc">Auto-scheduling, confirmations, and reminders that eliminate no-shows and admin chaos.</div>
+        <div class="svc-metric"><i data-lucide="trending-up" style="width:14px;height:14px"></i> Avg 8 hrs/week saved</div>
+      </div>
+      <div class="svc-card reveal-up">
+        <div class="svc-icon"><i data-lucide="file-text" style="width:24px;height:24px"></i></div>
+        <div class="svc-name">Invoice & Admin AI</div>
+        <div class="svc-desc">Auto-generates invoices, sends payment reminders, and chases outstanding balances for you.</div>
+        <div class="svc-metric"><i data-lucide="trending-up" style="width:14px;height:14px"></i> Avg $1,200/mo recovered</div>
+      </div>
+      <div class="svc-card reveal-up">
+        <div class="svc-icon"><i data-lucide="megaphone" style="width:24px;height:24px"></i></div>
+        <div class="svc-name">AI Marketing Engine</div>
+        <div class="svc-desc">Automated social posts, email campaigns, and review requests that keep your business top-of-mind.</div>
+        <div class="svc-metric"><i data-lucide="trending-up" style="width:14px;height:14px"></i> Avg 2x more 5-star reviews</div>
+      </div>
+      <div class="svc-card reveal-up">
+        <div class="svc-icon"><i data-lucide="zap" style="width:24px;height:24px"></i></div>
+        <div class="svc-name">Lead Follow-Up AI</div>
+        <div class="svc-desc">Responds to every new lead in under 60 seconds, then nurtures them for up to 6 months automatically.</div>
+        <div class="svc-metric"><i data-lucide="trending-up" style="width:14px;height:14px"></i> Avg 35% more deals closed</div>
+      </div>
+      <div class="svc-card reveal-up">
+        <div class="svc-icon"><i data-lucide="cpu" style="width:24px;height:24px"></i></div>
+        <div class="svc-name">Custom AI Workflows</div>
+        <div class="svc-desc">Anything repetitive in your business — we automate it. Payroll prep, inventory alerts, client onboarding, and more.</div>
+        <div class="svc-metric"><i data-lucide="trending-up" style="width:14px;height:14px"></i> Avg 20+ hrs/week saved</div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:48px">
+      <a href="/services.html" class="btn btn-outline magnetic">Explore All Services <i data-lucide="arrow-right" style="width:16px;height:16px"></i></a>
     </div>
   </div>
 </section>
 
-<!-- ===== PRICING ===== -->
-<section class="pricing-section" id="pricing" aria-labelledby="pricing-title">
+<!-- STATS -->
+<section id="stats">
+  <div class="stats-grid">
+    <div class="stat-item reveal-up">
+      <span class="stat-num" data-target="50" data-suffix="+">0</span>
+      <div class="stat-label">Miami Businesses Automated</div>
+    </div>
+    <div class="stat-item reveal-up">
+      <span class="stat-num" data-target="2.1" data-prefix="$" data-suffix="M+">$0</span>
+      <div class="stat-label">Saved For Clients</div>
+    </div>
+    <div class="stat-item reveal-up">
+      <span class="stat-num" data-target="4.9" data-suffix="/5.0">0</span>
+      <div class="stat-label">Average Client Rating</div>
+    </div>
+    <div class="stat-item reveal-up">
+      <span class="stat-num" data-target="14" data-suffix=" Days">0</span>
+      <div class="stat-label">Average Setup Time</div>
+    </div>
+    <div class="stat-item reveal-up">
+      <span class="stat-num" data-target="20" data-suffix="+ Hrs">0</span>
+      <div class="stat-label">Saved Weekly Per Client</div>
+    </div>
+    <div class="stat-item reveal-up">
+      <span class="stat-num" data-target="0" data-suffix="">0</span>
+      <div class="stat-label">Clients Have Ever Left</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
   <div class="container">
-    <div class="section-header reveal">
-      <div class="section-label">Transparent Pricing</div>
-      <h2 class="section-title" id="pricing-title">Simple Plans. <span class="text-accent">Real Results.</span></h2>
-      <p class="section-sub">No setup fees. No lock-in. Just systems that pay for themselves — usually within the first 30 days.</p>
+    <div class="section-header">
+      <div class="section-label">How It Works</div>
+      <h2 class="section-title reveal-up">Up and Running in 14 Days</h2>
+      <p class="section-sub reveal-up">No technical knowledge required. We handle everything from strategy to launch.</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal-up">
+        <div class="tl-num">1</div>
+        <div class="tl-title">Free Strategy Audit</div>
+        <div class="tl-desc">We analyze your business, identify automation opportunities, and show you exactly what we'll build and the ROI you can expect. No fluff.</div>
+      </div>
+      <div class="tl-item reveal-up">
+        <div class="tl-num">2</div>
+        <div class="tl-title">We Build & Deploy</div>
+        <div class="tl-desc">Our team builds your custom AI systems in 7–14 days. We handle the entire technical setup and integrate with your existing tools.</div>
+      </div>
+      <div class="tl-item reveal-up">
+        <div class="tl-num">3</div>
+        <div class="tl-title">You Reclaim Your Life</div>
+        <div class="tl-desc">Your AI systems run 24/7. We optimize monthly. You focus on growing, not grinding. Most clients see ROI within the first 30 days.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Client Results</div>
+      <h2 class="section-title reveal-up">Real Miami Businesses.<br>Real Results.</h2>
+      <p class="section-sub reveal-up">Don't take our word for it. Here's what our clients are saying.</p>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal-up">
+        <div class="testi-stars">
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+        </div>
+        <p class="testi-quote">SalveNano transformed my dental practice. Saved us 25 hours a week and $2,800 a month.</p>
+        <div class="testi-name">Dr. James Rodriguez</div>
+        <div class="testi-biz">Coral Gables Dental</div>
+      </div>
+      <div class="testi-card reveal-up">
+        <div class="testi-stars">
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+        </div>
+        <p class="testi-quote">Best decision in 10 years of business. My restaurant runs on autopilot now.</p>
+        <div class="testi-name">Maria Sanchez</div>
+        <div class="testi-biz">La Cocina Miami — Wynwood</div>
+      </div>
+      <div class="testi-card reveal-up">
+        <div class="testi-stars">
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+        </div>
+        <p class="testi-quote">Revenue is up 40% since we started. The AI responds to every lead instantly.</p>
+        <div class="testi-name">David Klein</div>
+        <div class="testi-biz">Klein Law Group — Brickell</div>
+      </div>
+      <div class="testi-card reveal-up">
+        <div class="testi-stars">
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+        </div>
+        <p class="testi-quote">We are booked out 3 weeks in advance for the first time ever.</p>
+        <div class="testi-name">Sofia Reyes</div>
+        <div class="testi-biz">Luxe Salon — South Beach</div>
+      </div>
+      <div class="testi-card reveal-up">
+        <div class="testi-stars">
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+          <i data-lucide="star" style="width:14px;height:14px;fill:currentColor"></i>
+        </div>
+        <p class="testi-quote">ROI was immediate. Within 30 days we recovered the entire cost.</p>
+        <div class="testi-name">Carlos Mendez</div>
+        <div class="testi-biz">Mendez HVAC — Doral</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Pricing</div>
+      <h2 class="section-title reveal-up">Transparent Pricing.<br>No Surprises.</h2>
+      <p class="section-sub reveal-up">Every plan includes setup, support, and monthly optimization.</p>
     </div>
     <div class="pricing-grid">
-
-      <div class="pricing-card reveal reveal-d1">
-        <p class="pricing-name">Starter</p>
-        <div class="pricing-price">$497<span>/mo</span></div>
-        <p class="pricing-price-label">Everything you need to get started</p>
-        <hr class="pricing-divider">
-        <p class="pricing-for">Perfect for</p>
-        <p class="pricing-perfect">Single-location businesses — salons, small restaurants, independent professionals</p>
-        <ul class="pricing-features">
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>1 AI system of your choice</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Full setup &amp; onboarding</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Monthly optimization</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Email &amp; chat support</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Free audit included</li>
-        </ul>
-        <button class="pricing-cta pricing-cta-default" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
-          Get Started
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
+      <div class="price-card reveal-up">
+        <div class="price-name">Starter</div>
+        <div class="price-amount"><span>$</span>497<span style="font-size:1rem">/mo</span></div>
+        <div class="price-sub">Best for salons, small restaurants</div>
+        <div class="price-divider"></div>
+        <div class="price-features">
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>1 AI System of Your Choice</div>
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>Full Setup Included</div>
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>Email Support</div>
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>Monthly Optimization</div>
+        </div>
+        <a href="https://calendly.com/salvenano" target="_blank" class="price-cta price-cta-outline">Book Free Audit</a>
+        <div class="price-best">Setup fee may apply</div>
       </div>
-
-      <div class="pricing-card featured reveal reveal-d2">
-        <div class="popular-badge" aria-label="Most popular plan">
-          <svg width="10" height="10" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1.2l1.85 3.74 4.13.6-2.99 2.91.71 4.1L8 10.5l-3.7 1.95.71-4.1L2 5.54l4.13-.6z"/></svg>
-          Most Popular
+      <div class="price-card price-card-featured reveal-up">
+        <div class="price-badge">Most Popular</div>
+        <div class="price-name" style="color:#00ff88">Growth</div>
+        <div class="price-amount"><span>$</span>997<span style="font-size:1rem">/mo</span></div>
+        <div class="price-sub">Best for dental, law, real estate</div>
+        <div class="price-divider"></div>
+        <div class="price-features">
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>3 AI Systems Bundled</div>
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>Priority Support</div>
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>Weekly Optimization</div>
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>Monthly Strategy Call</div>
         </div>
-        <p class="pricing-name">Growth</p>
-        <div class="pricing-price">$997<span>/mo</span></div>
-        <p class="pricing-price-label">For businesses ready to scale fast</p>
-        <hr class="pricing-divider">
-        <p class="pricing-for">Perfect for</p>
-        <p class="pricing-popular-for">Dental offices, law firms, real estate agencies — <strong>established businesses that mean business</strong></p>
-        <ul class="pricing-features">
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>3 AI systems of your choice</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Priority support</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Weekly optimization</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Monthly strategy call</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Free audit included</li>
-        </ul>
-        <button class="pricing-cta pricing-cta-featured" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
-          Get Started
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
+        <a href="https://calendly.com/salvenano" target="_blank" class="price-cta price-cta-primary">Book Free Audit</a>
+        <div class="price-best">No setup fee</div>
       </div>
-
-      <div class="pricing-card reveal reveal-d3">
-        <p class="pricing-name">Enterprise</p>
-        <div class="pricing-price" style="font-size:2rem">Custom</div>
-        <p class="pricing-price-label">Multi-location &amp; complex operations</p>
-        <hr class="pricing-divider">
-        <p class="pricing-for">Perfect for</p>
-        <p class="pricing-perfect">Restaurant groups, medical practices, large agencies operating at scale</p>
-        <ul class="pricing-features">
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Unlimited automations</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Dedicated account manager</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Daily monitoring &amp; reporting</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Custom integrations</li>
-          <li class="pricing-feature"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Free audit included</li>
-        </ul>
-        <button class="pricing-cta pricing-cta-default" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
-          Talk to Us
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
-      </div>
-
-    </div>
-    <div class="pricing-note reveal">
-      <span>Free audit included</span>
-      <span class="pricing-note-sep"></span>
-      <span>14-day setup</span>
-      <span class="pricing-note-sep"></span>
-      <span>30-day money-back guarantee</span>
-    </div>
-  </div>
-</section>
-
-<!-- ===== FAQ ===== -->
-<section class="faq-section" id="faq" aria-labelledby="faq-title">
-  <div class="container">
-    <div class="section-header reveal">
-      <div class="section-label">Questions</div>
-      <h2 class="section-title" id="faq-title">Everything You Want <span class="text-accent">To Know</span></h2>
-    </div>
-    <div class="faq-inner reveal">
-      <div class="faq-list" role="list">
-
-        <div class="faq-item" role="listitem">
-          <button class="faq-question" aria-expanded="false">
-            <span class="faq-question-text">Do I need to be tech savvy?</span>
-            <div class="faq-icon" aria-hidden="true">
-              <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-            </div>
-          </button>
-          <div class="faq-answer"><p>Not at all. We handle everything end-to-end. You tell us your problems, we solve them. The most technical thing you'll ever do is send us a text message.</p></div>
+      <div class="price-card reveal-up">
+        <div class="price-name">Enterprise</div>
+        <div class="price-amount" style="font-size:2.4rem">Custom</div>
+        <div class="price-sub">Best for restaurant groups, medical</div>
+        <div class="price-divider"></div>
+        <div class="price-features">
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>Unlimited Automations</div>
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>Dedicated Account Manager</div>
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>Daily Monitoring</div>
+          <div class="price-feature"><i data-lucide="check" style="width:15px;height:15px"></i>Multi-Location Support</div>
         </div>
-
-        <div class="faq-item" role="listitem">
-          <button class="faq-question" aria-expanded="false">
-            <span class="faq-question-text">How long does setup take?</span>
-            <div class="faq-icon" aria-hidden="true">
-              <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-            </div>
-          </button>
-          <div class="faq-answer"><p>Most businesses are fully automated within 14 days of signing up. Day 1 is your free audit. Days 2–10 we build your custom systems. Day 14 you go live. Fast by design — we respect your time.</p></div>
-        </div>
-
-        <div class="faq-item" role="listitem">
-          <button class="faq-question" aria-expanded="false">
-            <span class="faq-question-text">Will this work for my specific business?</span>
-            <div class="faq-icon" aria-hidden="true">
-              <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-            </div>
-          </button>
-          <div class="faq-answer"><p>We've automated 50+ different business types across Miami — from dental offices in Coral Gables to restaurants in Wynwood to law firms in Brickell. Book a free audit and we'll tell you exactly what's possible for your specific operation.</p></div>
-        </div>
-
-        <div class="faq-item" role="listitem">
-          <button class="faq-question" aria-expanded="false">
-            <span class="faq-question-text">What if I don't like it?</span>
-            <div class="faq-icon" aria-hidden="true">
-              <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-            </div>
-          </button>
-          <div class="faq-answer"><p>30-day money-back guarantee. No questions asked. We're confident in our work — but we'd rather you have the safety net so you can say yes without hesitation.</p></div>
-        </div>
-
-        <div class="faq-item" role="listitem">
-          <button class="faq-question" aria-expanded="false">
-            <span class="faq-question-text">Do you only work with Miami businesses?</span>
-            <div class="faq-icon" aria-hidden="true">
-              <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-            </div>
-          </button>
-          <div class="faq-answer"><p>We specialize in Miami and South Florida businesses. We're local — which means we show up, we're in your timezone, and we understand the Miami market. We do work with select businesses outside South Florida on a case-by-case basis.</p></div>
-        </div>
-
-        <div class="faq-item" role="listitem">
-          <button class="faq-question" aria-expanded="false">
-            <span class="faq-question-text">What makes you different from other AI companies?</span>
-            <div class="faq-icon" aria-hidden="true">
-              <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-            </div>
-          </button>
-          <div class="faq-answer"><p>We're local, we're hands-on, and we don't leave until it's working. We're not selling you software — we're building systems. Every client gets a custom-built solution, not a template. And our 0 client churn rate speaks for itself.</p></div>
-        </div>
-
+        <a href="https://calendly.com/salvenano" target="_blank" class="price-cta price-cta-outline">Book Free Audit</a>
+        <div class="price-best">Custom pricing</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== FINAL CTA ===== -->
-<section class="final-cta-section" id="contact" aria-labelledby="cta-title">
-  <div class="final-cta-glow" aria-hidden="true"></div>
+<!-- FAQ -->
+<section id="faq">
   <div class="container">
-    <div class="final-cta-content reveal">
-      <div class="section-label" style="justify-content:center">Get Started</div>
-      <h2 class="final-cta-title" id="cta-title">Ready To Get<br><span class="text-accent">Your Time Back?</span></h2>
-      <p class="final-cta-sub">Join 50+ Miami businesses already running on autopilot. Your free audit takes 30 minutes and shows you exactly how much time and money you're leaving on the table.</p>
-      <a href="mailto:contact@salvenano.ai" class="btn btn-primary btn-lg">
-        Book My Free Audit Now
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-      <p class="final-cta-under">No commitment. No tech knowledge needed. Just results.</p>
+    <div class="section-header">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-title reveal-up">Questions? We Have Answers.</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">How long does setup take? <div class="faq-icon"><i data-lucide="plus" style="width:12px;height:12px"></i></div></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Most AI systems are fully deployed in 7–14 days. We handle the entire technical setup so you don't have to touch a line of code.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Do I need technical knowledge? <div class="faq-icon"><i data-lucide="plus" style="width:12px;height:12px"></i></div></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Zero. If you can send an email and use your phone, you can use our systems. We train you and your staff, and we handle all updates.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What industries do you work with? <div class="faq-icon"><i data-lucide="plus" style="width:12px;height:12px"></i></div></button>
+        <div class="faq-answer"><div class="faq-answer-inner">We specialize in Miami businesses: dental, law, real estate, restaurants, salons, HVAC, medical spas, and more. If you have repetitive tasks, we can automate them.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Does the AI speak Spanish? <div class="faq-icon"><i data-lucide="plus" style="width:12px;height:12px"></i></div></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Yes. Our AI Receptionist and Lead Follow-Up AI are fully bilingual — English and Spanish. Miami is a bilingual market and we're built for it.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What if I want to cancel? <div class="faq-icon"><i data-lucide="plus" style="width:12px;height:12px"></i></div></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Month-to-month, no contracts. Cancel anytime. That said, 0 of our clients have ever left — because the results speak for themselves.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How soon will I see ROI? <div class="faq-icon"><i data-lucide="plus" style="width:12px;height:12px"></i></div></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Most clients see a return on their investment within the first 30 days through reduced admin costs alone. Add in new leads captured and you're typically cash-flow positive in week 2.</div></div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ===== FOOTER ===== -->
-<footer role="contentinfo">
+<!-- FINAL CTA -->
+<section id="final-cta">
+  <div class="container" style="text-align:center">
+    <div class="section-label" style="justify-content:center;margin-bottom:24px">Take Action</div>
+    <h2 class="final-cta-title reveal-up">Ready to Get Your<br><span style="color:#00ff88">Time Back?</span></h2>
+    <p class="final-cta-sub reveal-up">Book a free 30-minute audit. We'll show you exactly what we'd automate in your business and what it's worth.</p>
+    <a href="https://calendly.com/salvenano" target="_blank" class="btn btn-primary btn-lg magnetic reveal-up" style="font-size:1.05rem;padding:18px 40px">
+      Get My Free Audit
+      <i data-lucide="arrow-right" style="width:18px;height:18px"></i>
+    </a>
+    <div class="final-trust reveal-up">
+      <div class="final-trust-item"><i data-lucide="shield-check" style="width:15px;height:15px"></i>No obligation</div>
+      <div class="final-trust-item"><i data-lucide="clock" style="width:15px;height:15px"></i>30-minute call</div>
+      <div class="final-trust-item"><i data-lucide="trending-up" style="width:15px;height:15px"></i>Custom ROI projection</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
   <div class="container">
-    <div class="footer-grid">
+    <div class="footer-inner">
       <div>
-        <div class="footer-brand-name">
-          <span class="nav-logo-dot" aria-hidden="true"></span>
+        <div class="footer-logo">
+          <div class="nav-logo-dot"></div>
           SalveNano AI
         </div>
-        <p class="footer-tagline">Miami's most trusted AI automation agency. We install intelligent systems that work 24/7 and give owners their life back.</p>
-        <div class="footer-contact">
-          <a href="tel:3050000000" class="footer-contact-item">
-            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5.5 3l2 2-1.5 2 3.5 3.5 2-1.5 2 2-3 2a10.5 10.5 0 01-7-7l2-3z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
-            (305) 000-0000
-          </a>
-          <a href="mailto:contact@salvenano.ai" class="footer-contact-item">
-            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="2" y="4" width="12" height="9" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M2 5.5l6 4.5 6-4.5" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
-            contact@salvenano.ai
-          </a>
-          <span class="footer-contact-item">
-            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1.5a5 5 0 00-5 5c0 4 5 8 5 8s5-4 5-8a5 5 0 00-5-5zm0 7a2 2 0 110-4 2 2 0 010 4z" fill="currentColor"/></svg>
-            Miami, Florida
-          </span>
+        <p class="footer-tagline">Miami's #1 AI automation agency. We build systems that run your business while you sleep.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Company</div>
+        <div class="footer-links">
+          <a href="/about.html">About</a>
+          <a href="/services.html">Services</a>
+          <a href="/case-studies.html">Case Studies</a>
+          <a href="/contact.html">Contact</a>
         </div>
       </div>
       <div>
-        <p class="footer-heading">Navigate</p>
-        <nav class="footer-links" aria-label="Footer navigation">
-          <a href="#home">Home</a>
-          <a href="#services">Services</a>
-          <a href="#pricing">Pricing</a>
+        <div class="footer-col-title">Services</div>
+        <div class="footer-links">
+          <a href="/services.html">AI Receptionist</a>
+          <a href="/services.html">Appointment AI</a>
+          <a href="/services.html">Lead Follow-Up AI</a>
+          <a href="/services.html">AI Marketing Engine</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Get Started</div>
+        <div class="footer-links">
+          <a href="https://calendly.com/salvenano" target="_blank">Book Free Audit</a>
+          <a href="mailto:contact@salvenano.ai">contact@salvenano.ai</a>
+          <a href="#pricing">View Pricing</a>
           <a href="#faq">FAQ</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
-      <div>
-        <p class="footer-heading">Services</p>
-        <ul class="footer-links">
-          <li><a href="#services">AI Receptionist</a></li>
-          <li><a href="#services">Appointment Automation</a></li>
-          <li><a href="#services">Invoice AI</a></li>
-          <li><a href="#services">Marketing Engine</a></li>
-          <li><a href="#services">Lead Follow-Up</a></li>
-        </ul>
-      </div>
-      <div>
-        <p class="footer-heading">We Serve</p>
-        <ul class="footer-links">
-          <li><a href="#contact">Dental Offices</a></li>
-          <li><a href="#contact">Restaurants</a></li>
-          <li><a href="#contact">Law Firms</a></li>
-          <li><a href="#contact">Salons &amp; Spas</a></li>
-          <li><a href="#contact">Real Estate</a></li>
-        </ul>
+        </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-copy">&copy; 2025 SalveNano AI. All rights reserved.</p>
-      <div class="footer-bottom-badge">
-        <span class="nav-logo-dot" aria-hidden="true"></span>
-        Miami's #1 AI Automation Agency
+      <div>© 2025 SalveNano AI. All rights reserved.</div>
+      <div style="display:flex;gap:20px">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- Scroll to Top -->
-<button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
-  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 10l4-4 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-</button>
-
+<!-- SCRIPTS -->
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 <script>
-/* ===== CANVAS PARTICLES ===== */
-(function(){
-  const canvas = document.getElementById('particles');
-  const ctx = canvas.getContext('2d');
-  let W, H, particles;
-  const COUNT = 80;
+// LUCIDE ICONS
+lucide.createIcons();
 
-  function resize(){
-    W = canvas.width = window.innerWidth;
-    H = canvas.height = window.innerHeight;
+// LENIS SMOOTH SCROLL
+const lenis = new Lenis({ lerp: 0.1, smooth: true });
+gsap.ticker.add((time) => { lenis.raf(time * 1000); });
+gsap.ticker.lagSmoothing(0);
+
+// GSAP SCROLLTRIGGER
+gsap.registerPlugin(ScrollTrigger);
+
+// ---- LOADER ----
+const loaderTl = gsap.timeline();
+loaderTl
+  .to('#loader-logo', { opacity: 1, duration: 0.6, ease: 'power2.out' })
+  .to('#loader-logo', { scale: 1.15, duration: 0.4, ease: 'power2.inOut' }, '+=0.3')
+  .to('#loader-logo', { opacity: 0, scale: 1.3, duration: 0.35, ease: 'power2.in' })
+  .to('#loader', { opacity: 0, duration: 0.4, ease: 'power2.in' }, '-=0.1')
+  .set('#loader', { display: 'none' })
+  .from('.hero-content > *', { opacity: 0, y: 30, stagger: 0.12, duration: 0.7, ease: 'power2.out' }, '-=0.2');
+
+// ---- CURSOR ----
+const cursor = document.getElementById('cursor');
+if (window.innerWidth > 768) {
+  let cx = 0, cy = 0, tx = 0, ty = 0;
+  document.addEventListener('mousemove', (e) => { tx = e.clientX; ty = e.clientY; });
+  function animCursor() {
+    cx += (tx - cx) * 0.15;
+    cy += (ty - cy) * 0.15;
+    cursor.style.left = cx + 'px';
+    cursor.style.top = cy + 'px';
+    requestAnimationFrame(animCursor);
   }
+  animCursor();
+  document.querySelectorAll('a,button,.btn,.bento-card,.svc-card,.price-card,.testi-card,.faq-question').forEach(el => {
+    el.addEventListener('mouseenter', () => cursor.classList.add('expanded'));
+    el.addEventListener('mouseleave', () => cursor.classList.remove('expanded'));
+  });
+}
 
-  function Particle(){
-    this.x = Math.random() * W;
-    this.y = Math.random() * H;
-    this.vx = (Math.random() - 0.5) * 0.35;
-    this.vy = (Math.random() - 0.5) * 0.35;
-    this.r = Math.random() * 1.4 + 0.4;
-    this.alpha = Math.random() * 0.055 + 0.015;
-    this.green = Math.random() > 0.78;
+// ---- NAV STICKY ----
+const mainNav = document.getElementById('main-nav');
+ScrollTrigger.create({
+  start: 'top -100',
+  onUpdate: (self) => {
+    if (self.scroll() > 100) mainNav.classList.add('scrolled');
+    else mainNav.classList.remove('scrolled');
   }
+});
 
-  Particle.prototype.update = function(){
-    this.x += this.vx;
-    this.y += this.vy;
-    if(this.x < 0) this.x = W;
-    if(this.x > W) this.x = 0;
-    if(this.y < 0) this.y = H;
-    if(this.y > H) this.y = 0;
-  };
+// ---- MOBILE NAV ----
+document.getElementById('hamburger').addEventListener('click', () => {
+  document.getElementById('mobile-nav').classList.add('open');
+});
+document.getElementById('nav-close').addEventListener('click', () => {
+  document.getElementById('mobile-nav').classList.remove('open');
+});
+document.querySelectorAll('#mobile-nav a').forEach(a => {
+  a.addEventListener('click', () => document.getElementById('mobile-nav').classList.remove('open'));
+});
 
-  Particle.prototype.draw = function(){
-    ctx.beginPath();
-    ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
-    ctx.fillStyle = this.green
-      ? `rgba(0,255,136,${this.alpha})`
-      : `rgba(255,255,255,${this.alpha})`;
-    ctx.fill();
-  };
-
-  function init(){
-    resize();
-    particles = Array.from({length: COUNT}, () => new Particle());
+// ---- THREE.JS PARTICLES ----
+if (window.innerWidth >= 768) {
+  const canvas = document.getElementById('hero-canvas');
+  const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+  camera.position.z = 300;
+  const count = 150;
+  const positions = [];
+  const velocities = [];
+  for (let i = 0; i < count; i++) {
+    positions.push({
+      x: (Math.random() - 0.5) * window.innerWidth * 0.9,
+      y: (Math.random() - 0.5) * window.innerHeight * 0.9,
+      z: (Math.random() - 0.5) * 100
+    });
+    velocities.push({
+      x: (Math.random() - 0.5) * 0.4,
+      y: (Math.random() - 0.5) * 0.4
+    });
   }
-
-  function loop(){
-    ctx.clearRect(0, 0, W, H);
-    particles.forEach(p => { p.update(); p.draw(); });
-    requestAnimationFrame(loop);
-  }
-
-  window.addEventListener('resize', resize);
-  init();
-  loop();
-})();
-
-/* ===== SCROLL REVEAL ===== */
-const revealEls = document.querySelectorAll('.reveal');
-const revealObserver = new IntersectionObserver((entries) => {
-  entries.forEach(e => {
-    if(e.isIntersecting){
-      e.target.classList.add('visible');
-      revealObserver.unobserve(e.target);
+  const geo = new THREE.BufferGeometry();
+  const posArr = new Float32Array(count * 3);
+  geo.setAttribute('position', new THREE.BufferAttribute(posArr, 3));
+  const mat = new THREE.PointsMaterial({ color: 0x00ff88, size: 2.5, transparent: true, opacity: 0.5 });
+  const points = new THREE.Points(geo, mat);
+  scene.add(points);
+  const lineMat = new THREE.LineBasicMaterial({ color: 0x00ff88, transparent: true, opacity: 0.12 });
+  const lineGeo = new THREE.BufferGeometry();
+  const maxLines = count * count;
+  const linePositions = new Float32Array(maxLines * 6);
+  lineGeo.setAttribute('position', new THREE.BufferAttribute(linePositions, 3));
+  const lines = new THREE.LineSegments(lineGeo, lineMat);
+  scene.add(lines);
+  let mouseX = 0, mouseY = 0;
+  document.addEventListener('mousemove', (e) => {
+    mouseX = (e.clientX / window.innerWidth - 0.5) * window.innerWidth;
+    mouseY = -(e.clientY / window.innerHeight - 0.5) * window.innerHeight;
+    // Parallax
+    if (window.innerWidth > 768) {
+      const px = (e.clientX / window.innerWidth - 0.5) * 2;
+      const py = (e.clientY / window.innerHeight - 0.5) * 2;
+      const ht = document.getElementById('hero-title');
+      const hs = document.getElementById('hero-sub');
+      if (ht) ht.style.transform = `translate(${px * 12}px, ${py * 8}px)`;
+      if (hs) hs.style.transform = `translate(${px * 7}px, ${py * 5}px)`;
     }
   });
-}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-revealEls.forEach(el => revealObserver.observe(el));
+  function animParticles() {
+    requestAnimationFrame(animParticles);
+    const hw = window.innerWidth / 2, hh = window.innerHeight / 2;
+    for (let i = 0; i < count; i++) {
+      positions[i].x += velocities[i].x;
+      positions[i].y += velocities[i].y;
+      const dx = positions[i].x - mouseX;
+      const dy = positions[i].y - mouseY;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist < 120) {
+        const force = (120 - dist) / 120 * 1.2;
+        velocities[i].x += (dx / dist) * force * 0.04;
+        velocities[i].y += (dy / dist) * force * 0.04;
+      }
+      velocities[i].x *= 0.98;
+      velocities[i].y *= 0.98;
+      if (positions[i].x > hw) positions[i].x = -hw;
+      if (positions[i].x < -hw) positions[i].x = hw;
+      if (positions[i].y > hh) positions[i].y = -hh;
+      if (positions[i].y < -hh) positions[i].y = hh;
+      posArr[i * 3] = positions[i].x;
+      posArr[i * 3 + 1] = positions[i].y;
+      posArr[i * 3 + 2] = positions[i].z;
+    }
+    geo.attributes.position.needsUpdate = true;
+    let lineIdx = 0;
+    for (let i = 0; i < count; i++) {
+      for (let j = i + 1; j < count; j++) {
+        const dx = positions[i].x - positions[j].x;
+        const dy = positions[i].y - positions[j].y;
+        const d = Math.sqrt(dx * dx + dy * dy);
+        if (d < 120 && lineIdx < maxLines) {
+          linePositions[lineIdx * 6] = positions[i].x;
+          linePositions[lineIdx * 6 + 1] = positions[i].y;
+          linePositions[lineIdx * 6 + 2] = 0;
+          linePositions[lineIdx * 6 + 3] = positions[j].x;
+          linePositions[lineIdx * 6 + 4] = positions[j].y;
+          linePositions[lineIdx * 6 + 5] = 0;
+          lineIdx++;
+        }
+      }
+    }
+    lineGeo.setDrawRange(0, lineIdx * 2);
+    lineGeo.attributes.position.needsUpdate = true;
+    renderer.render(scene, camera);
+  }
+  animParticles();
+  window.addEventListener('resize', () => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+  });
+}
 
-/* ===== COUNTER ANIMATION ===== */
-function easeOutQuart(t){ return 1 - Math.pow(1 - t, 4); }
+// ---- CINEMATIC SCROLL ----
+if (window.innerWidth >= 768) {
+  const cineSection = document.getElementById('cinematic');
+  const cineWorking = document.getElementById('cine-working');
+  const cineBeach = document.getElementById('cine-beach');
+  const texts = ['#cine-t1', '#cine-t2', '#cine-t3', '#cine-t4'];
+  const dots = ['#dot-0', '#dot-1', '#dot-2', '#dot-3'];
+  ScrollTrigger.create({
+    trigger: cineSection,
+    start: 'top top',
+    end: 'bottom bottom',
+    scrub: true,
+    onUpdate: (self) => {
+      const p = self.progress;
+      cineBeach.style.opacity = Math.min(1, Math.max(0, (p - 0.3) / 0.4));
+      const phases = [
+        { start: 0, end: 0.25 },
+        { start: 0.25, end: 0.55 },
+        { start: 0.55, end: 0.78 },
+        { start: 0.78, end: 1.0 }
+      ];
+      phases.forEach((phase, i) => {
+        const el = document.querySelector(texts[i]);
+        const dot = document.querySelector(dots[i]);
+        if (!el) return;
+        let op = 0;
+        if (p >= phase.start && p <= phase.end) {
+          const mid = (phase.start + phase.end) / 2;
+          op = p < mid
+            ? (p - phase.start) / (mid - phase.start)
+            : 1 - (p - mid) / (phase.end - mid);
+          op = Math.min(1, Math.max(0, op));
+        }
+        if (i === 3 && p >= 0.78) op = Math.min(1, (p - 0.78) / 0.1);
+        el.style.opacity = op;
+        if (dot) dot.classList.toggle('active', p >= phase.start && p <= phase.end + 0.05);
+      });
+    }
+  });
+  gsap.set('#cine-t1', { opacity: 0 });
+}
 
-function animateCounter(el){
+// ---- SCROLL REVEALS ----
+gsap.utils.toArray('.reveal-up').forEach(el => {
+  gsap.fromTo(el,
+    { opacity: 0, y: 40 },
+    { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out',
+      scrollTrigger: { trigger: el, start: 'top 88%' }
+    }
+  );
+});
+
+// ---- STAT COUNTERS ----
+gsap.utils.toArray('.stat-num').forEach(el => {
   const target = parseFloat(el.dataset.target);
   const prefix = el.dataset.prefix || '';
   const suffix = el.dataset.suffix || '';
-  const isDecimal = el.dataset.decimal === '1';
-  const isMoney = el.dataset.format === 'money';
-  const duration = 2200;
-  const start = performance.now();
-
-  el.classList.add('counting');
-
-  function tick(now){
-    const progress = Math.min((now - start) / duration, 1);
-    const eased = easeOutQuart(progress);
-    const current = eased * target;
-
-    let display;
-    if(isMoney){
-      if(current >= 1000000) display = '$' + (current / 1000000).toFixed(1) + 'M+';
-      else display = '$' + Math.floor(current).toLocaleString() + '+';
-    } else if(isDecimal){
-      display = prefix + current.toFixed(1) + suffix;
-    } else {
-      display = prefix + Math.floor(current).toLocaleString() + suffix;
+  gsap.fromTo({ val: 0 }, { val: target, duration: 2.2, ease: 'power2.out',
+    scrollTrigger: { trigger: el, start: 'top 85%', once: true },
+    onUpdate: function() {
+      const v = this.targets()[0].val;
+      el.textContent = prefix + (Number.isInteger(target) ? Math.round(v) : v.toFixed(1)) + suffix;
     }
-    el.textContent = display;
-
-    if(progress < 1){
-      requestAnimationFrame(tick);
-    } else {
-      el.classList.remove('counting');
-      if(isMoney) el.textContent = '$2.1M+';
-      else if(isDecimal) el.textContent = prefix + target.toFixed(1) + suffix;
-      else el.textContent = prefix + target.toLocaleString() + suffix;
-    }
-  }
-  requestAnimationFrame(tick);
-}
-
-const statsSection = document.getElementById('stats');
-let countersDone = false;
-const statsObserver = new IntersectionObserver((entries) => {
-  if(entries[0].isIntersecting && !countersDone){
-    countersDone = true;
-    document.querySelectorAll('.stat-number').forEach(el => animateCounter(el));
-    statsObserver.disconnect();
-  }
-}, { threshold: 0.3 });
-if(statsSection) statsObserver.observe(statsSection);
-
-/* ===== NAVBAR ===== */
-const navbar = document.getElementById('navbar');
-const sections = document.querySelectorAll('section[id]');
-const navLinks = document.querySelectorAll('.nav-links a');
-
-window.addEventListener('scroll', () => {
-  // Scrolled class
-  navbar.classList.toggle('scrolled', window.scrollY > 60);
-
-  // Active link
-  let current = '';
-  sections.forEach(sec => {
-    if(window.scrollY >= sec.offsetTop - 120) current = sec.id;
   });
-  navLinks.forEach(a => {
-    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+});
+
+// ---- 3D CARD TILT ----
+document.querySelectorAll('.bento-card,.svc-card,.testi-card,.price-card').forEach(card => {
+  card.addEventListener('mousemove', (e) => {
+    const rect = card.getBoundingClientRect();
+    const x = (e.clientX - rect.left) / rect.width - 0.5;
+    const y = (e.clientY - rect.top) / rect.height - 0.5;
+    card.style.transform = `perspective(1000px) rotateY(${x * 12}deg) rotateX(${-y * 12}deg) scale(1.02)`;
+    card.style.setProperty('--glow-x', `${(x + 0.5) * 100}%`);
+    card.style.setProperty('--glow-y', `${(y + 0.5) * 100}%`);
   });
-
-  // Scroll to top button
-  document.getElementById('scrollTopBtn').classList.toggle('visible', window.scrollY > 600);
-}, { passive: true });
-
-/* ===== HAMBURGER / MOBILE MENU ===== */
-const hamburger = document.getElementById('hamburger');
-const mobileMenu = document.getElementById('mobileMenu');
-
-function closeMobileMenu(){
-  hamburger.classList.remove('open');
-  hamburger.setAttribute('aria-expanded', 'false');
-  mobileMenu.classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-hamburger.addEventListener('click', () => {
-  const isOpen = mobileMenu.classList.contains('open');
-  if(isOpen){
-    closeMobileMenu();
-  } else {
-    hamburger.classList.add('open');
-    hamburger.setAttribute('aria-expanded', 'true');
-    mobileMenu.classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
+  card.addEventListener('mouseleave', () => {
+    card.style.transform = 'perspective(1000px) rotateY(0) rotateX(0) scale(1)';
+  });
 });
 
-document.querySelectorAll('.mobile-link, .mobile-menu .btn').forEach(link => {
-  link.addEventListener('click', closeMobileMenu);
+// ---- MAGNETIC BUTTONS ----
+document.querySelectorAll('.magnetic').forEach(btn => {
+  btn.addEventListener('mousemove', (e) => {
+    const rect = btn.getBoundingClientRect();
+    const x = (e.clientX - rect.left - rect.width / 2) * 0.3;
+    const y = (e.clientY - rect.top - rect.height / 2) * 0.3;
+    btn.style.transform = `translate(${x}px, ${y}px)`;
+  });
+  btn.addEventListener('mouseleave', () => {
+    gsap.to(btn, { x: 0, y: 0, duration: 0.4, ease: 'elastic.out(1,0.4)' });
+  });
 });
 
-document.addEventListener('keydown', (e) => {
-  if(e.key === 'Escape') closeMobileMenu();
-});
-
-/* ===== FAQ ACCORDION ===== */
-document.querySelectorAll('.faq-question').forEach(btn => {
+// ---- FAQ ACCORDION ----
+document.querySelectorAll('.faq-item').forEach(item => {
+  const btn = item.querySelector('.faq-question');
+  const answer = item.querySelector('.faq-answer');
   btn.addEventListener('click', () => {
-    const item = btn.closest('.faq-item');
     const isOpen = item.classList.contains('open');
-
     document.querySelectorAll('.faq-item').forEach(i => {
       i.classList.remove('open');
-      i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      i.querySelector('.faq-answer').style.maxHeight = '0';
     });
-
-    if(!isOpen){
+    if (!isOpen) {
       item.classList.add('open');
-      btn.setAttribute('aria-expanded', 'true');
-    }
-  });
-});
-
-/* ===== SCROLL TO TOP ===== */
-document.getElementById('scrollTopBtn').addEventListener('click', () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-});
-
-/* ===== SCROLL HERO ANIMATION ===== */
-(function(){
-  const section = document.getElementById('scrollHero');
-  const beach   = document.getElementById('scrollHeroBeach');
-  const pip1    = document.getElementById('scrollPip1');
-  const pip2    = document.getElementById('scrollPip2');
-  if(!section || !beach) return;
-
-  // Only run on desktop (mobile shows static beach image via CSS)
-  if(window.matchMedia('(max-width:768px)').matches) return;
-
-  function getProgress(){
-    const rect  = section.getBoundingClientRect();
-    const total = section.offsetHeight - window.innerHeight;
-    return Math.max(0, Math.min(1, -rect.top / total));
-  }
-
-  function update(){
-    const p = getProgress();
-    beach.style.opacity = p;
-    // Update progress pips
-    if(pip1 && pip2){
-      pip1.classList.toggle('active', p < 0.5);
-      pip2.classList.toggle('active', p >= 0.5);
-    }
-  }
-
-  window.addEventListener('scroll', update, { passive: true });
-  update();
-})();
-
-/* ===== SMOOTH SCROLL POLYFILL for older browsers ===== */
-document.querySelectorAll('a[href^="#"]').forEach(a => {
-  a.addEventListener('click', (e) => {
-    const target = document.querySelector(a.getAttribute('href'));
-    if(target){
-      e.preventDefault();
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      answer.style.maxHeight = answer.scrollHeight + 'px';
     }
   });
 });
