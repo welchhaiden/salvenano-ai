@@ -5,28 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SalveNano AI — Miami's #1 AI Automation Agency</title>
 <meta name="description" content="Miami's most trusted AI automation agency. We install intelligent systems into local businesses that work 24/7, slash costs by 40%, and give owners their life back.">
-<!-- Favicons & App Icons -->
-<link rel="icon" href="/assets/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/assets/android-chrome-192x192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="/assets/android-chrome-512x512.png">
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="SalveNano AI — Miami's #1 AI Automation Agency">
-<meta property="og:description" content="Miami's most trusted AI automation agency. We install intelligent systems into local businesses that work 24/7, slash costs by 40%, and give owners their life back.">
-<meta property="og:image" content="/assets/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="SalveNano AI — Miami's #1 AI Automation Agency">
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="SalveNano AI — Miami's #1 AI Automation Agency">
-<meta name="twitter:description" content="Miami's most trusted AI automation agency. We install intelligent systems into local businesses that work 24/7, slash costs by 40%, and give owners their life back.">
-<meta name="twitter:image" content="/assets/twitter-image.png">
-<meta name="twitter:image:alt" content="SalveNano AI — Miami's #1 AI Automation Agency">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -122,7 +100,7 @@ section{position:relative;z-index:2}
 .mobile-menu .btn{font-size:1rem}
 
 /* ===== HERO ===== */
-.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:140px 24px 80px;overflow:hidden;position:relative;z-index:10}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:140px 24px 80px;overflow:hidden}
 .hero-glow{position:absolute;top:30%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:radial-gradient(ellipse,rgba(0,255,136,0.1) 0%,transparent 65%);pointer-events:none;filter:blur(60px)}
 .hero-grid-overlay{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 40%,transparent 100%);pointer-events:none}
 .hero-content{max-width:820px;position:relative;z-index:2}
@@ -326,80 +304,11 @@ footer{background:#050505;border-top:1px solid var(--border);padding:64px 0 32px
   .reveal{opacity:1;transform:none}
   #particles{display:none}
 }
-
-/* ===== PREMIUM COMPONENTS ===== */
-
-/* 1. Aurora Background */
-.aurora-bg { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; background: #050505; }
-.aurora-blob { position: absolute; border-radius: 50%; filter: blur(90px); opacity: 0.45; mix-blend-mode: screen; animation: auroraAnim 20s infinite alternate; }
-.aurora-1 { top: -10%; left: -10%; width: 50vw; height: 50vh; background: #00ff88; animation-delay: 0s; }
-.aurora-2 { bottom: -10%; right: -10%; width: 60vw; height: 60vh; background: #0088ff; animation-delay: -5s; }
-.aurora-3 { top: 40%; left: 30%; width: 40vw; height: 40vh; background: #8800ff; animation-delay: -10s; }
-@keyframes auroraAnim { 0% { transform: scale(1) translate(0,0); } 50% { transform: scale(1.1) translate(10%, -10%); } 100% { transform: scale(0.9) translate(-10%, 10%); } }
-
-/* 2. Glowing CTA */
-.btn-primary { background: var(--bg) !important; color: #fff !important; position: relative; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05) !important; overflow: hidden; animation: none !important; z-index: 1; transition: all 0.3s ease; box-shadow: none !important; }
-.btn-primary::before { content: ''; position: absolute; inset: -4px; z-index: -2; background: conic-gradient(from 0deg, #00ff88, #0088ff, #8800ff, #00ff88); animation: spinBtn 3s linear infinite; }
-.btn-primary::after { content: ''; position: absolute; inset: 1.5px; background: var(--bg); z-index: -1; border-radius: 10px; transition: opacity 0.3s ease; }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 40px rgba(0,255,136,0.3) !important; color: #00ff88 !important; }
-@keyframes spinBtn { 100% { transform: rotate(360deg); } }
-
-/* 3. Bento Grid */
-.services-grid { display: grid; grid-template-columns: repeat(12, 1fr) !important; gap: 20px; }
-.service-card { grid-column: span 12; display: flex; flex-direction: column; }
-@media(min-width: 1025px) {
-  .service-card:nth-child(1) { grid-column: span 8; }
-  .service-card:nth-child(2) { grid-column: span 4; }
-  .service-card:nth-child(3) { grid-column: span 4; }
-  .service-card:nth-child(4) { grid-column: span 4; }
-  .service-card:nth-child(5) { grid-column: span 4; }
-  .service-card:nth-child(6) { grid-column: span 12; flex-direction: row; align-items: center; gap: 40px; }
-  .service-card:nth-child(6) .service-features { margin-bottom: 0; }
-}
-
-/* 4. Marquee Smooth Fade */
-.marquee-section { border: none !important; mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent); -webkit-mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent); }
-
-/* 5. Glowing Stats */
-.stat-number { color: #fff; text-shadow: 0 0 10px rgba(255,255,255,0.2); transition: color 0.3s, text-shadow 0.3s; }
-.stat-number.counting { color: var(--accent) !important; text-shadow: 0 0 20px rgba(0,255,136,0.6) !important; }
-
-/* 6. Glassmorphism */
-.testimonial-card { background: rgba(255, 255, 255, 0.03) !important; backdrop-filter: blur(24px) !important; -webkit-backdrop-filter: blur(24px) !important; border: 1px solid rgba(255, 255, 255, 0.08) !important; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); }
-.testimonial-card:hover { border-color: rgba(255,255,255,0.2) !important; background: rgba(255, 255, 255, 0.05) !important; }
-
-/* 7. Typewriter Cursor */
-.cursor { animation: blink 1s step-end infinite; }
-@keyframes blink { 50% { opacity: 0; } }
-
-/* 8. Spotlight */
-.service-card { position: relative; overflow: hidden; background: rgba(255,255,255,0.02) !important; border: 1px solid rgba(255,255,255,0.05) !important; cursor: pointer; }
-.service-card::after { content: ''; position: absolute; inset: 0; background: radial-gradient(600px circle at var(--mouse-x, 0) var(--mouse-y, 0), rgba(255,255,255,0.06), transparent 40%); z-index: -1; pointer-events: none; opacity: 0; transition: opacity 0.3s; }
-.service-card:hover::after { opacity: 1; }
-
-/* ===== HERO ANIMATION SECTION ===== */
-.hero-anim-section{padding:0 0 120px;position:relative;z-index:1}
-.hero-anim-label{text-align:center;margin-bottom:28px}
-.hero-anim-label span{display:inline-flex;align-items:center;gap:8px;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent)}
-.hero-anim-label span::before,.hero-anim-label span::after{content:'';width:24px;height:1px;background:var(--accent);opacity:0.5}
-.hero-anim-sticky-wrap{position:relative;height:280vh}
-.hero-anim-sticky{position:sticky;top:0;height:100vh;display:flex;align-items:center;justify-content:center;padding:0 24px}
-.hero-anim-frame{width:100%;max-width:1200px;background:#ffffff;border-radius:24px;padding:28px;box-shadow:0 0 80px rgba(0,255,136,0.08),0 40px 120px rgba(0,0,0,0.6)}
-.hero-anim-frame canvas{width:100%;aspect-ratio:16/9;display:block;border-radius:12px;background:#000}
-.hero-anim-hint{text-align:center;margin-top:16px;font-size:0.75rem;color:var(--text-muted);letter-spacing:0.05em;transition:opacity 0.5s}
-
 </style>
-
 </head>
 <body>
 
-<!-- Aurora Background -->
-<div class="aurora-bg">
-  <div class="aurora-blob aurora-1"></div>
-  <div class="aurora-blob aurora-2"></div>
-  <div class="aurora-blob aurora-3"></div>
-</div>
-
+<canvas id="particles"></canvas>
 
 <!-- ===== NAVBAR ===== -->
 <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
@@ -414,7 +323,7 @@ footer{background:#050505;border-top:1px solid var(--border);padding:64px 0 32px
     <a href="#faq" role="listitem">FAQ</a>
   </div>
   <div class="nav-right">
-    <a href="https://calendly.com/salvenano" target="_blank" rel="noopener noreferrer" class="btn btn-primary nav-cta">Get Free Audit</a>
+    <a href="#contact" class="btn btn-primary nav-cta">Get Free Audit</a>
     <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -427,14 +336,14 @@ footer{background:#050505;border-top:1px solid var(--border);padding:64px 0 32px
   <a href="#results" class="mobile-link">Results</a>
   <a href="#pricing" class="mobile-link">Pricing</a>
   <a href="#faq" class="mobile-link">FAQ</a>
-  <a href="https://calendly.com/salvenano" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Get Your Free Audit</a>
+  <a href="#contact" class="btn btn-primary btn-lg">Get Your Free Audit</a>
 </div>
 
 <!-- ===== HERO ===== -->
 <section class="hero" id="home" aria-labelledby="hero-headline">
   <div class="hero-glow" aria-hidden="true"></div>
   <div class="hero-grid-overlay" aria-hidden="true"></div>
-  <div class="hero-content reveal visible">
+  <div class="hero-content reveal">
     <div class="hero-badge">
       <span class="hero-badge-dot" aria-hidden="true"></span>
       Miami's Most Trusted AI Agency
@@ -443,11 +352,12 @@ footer{background:#050505;border-top:1px solid var(--border);padding:64px 0 32px
       Miami's <span class="text-accent">#1 AI</span><br>
       Automation Agency
     </h1>
-    <p class="hero-sub" style="min-height: 80px;">
-      <span id="typewriter"></span><span class="cursor">|</span>
+    <p class="hero-sub">
+      We build AI systems that run your business while you sleep.<br>
+      <strong>50+ Miami businesses already automated.</strong>
     </p>
     <div class="hero-ctas">
-      <a href="https://calendly.com/salvenano" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+      <a href="#contact" class="btn btn-primary btn-lg">
         Get Your Free Audit
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
@@ -469,21 +379,6 @@ footer{background:#050505;border-top:1px solid var(--border);padding:64px 0 32px
       <div class="trust-badge" role="listitem">
         <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1.5a5 5 0 00-5 5c0 4 5 8 5 8s5-4 5-8a5 5 0 00-5-5zm0 7a2 2 0 110-4 2 2 0 010 4z" fill="currentColor"/></svg>
         Miami Based
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== HERO ANIMATION ===== -->
-<section class="hero-anim-section" id="hero-anim" aria-label="Interactive AI visualization">
-  <div class="container">
-    <div class="hero-anim-label reveal"><span>Scroll to Activate</span></div>
-  </div>
-  <div class="hero-anim-sticky-wrap">
-    <div class="hero-anim-sticky">
-      <div class="hero-anim-frame reveal">
-        <canvas id="heroCanvas" width="2560" height="1440" aria-hidden="true"></canvas>
-        <p class="hero-anim-hint" id="animHint">↓ Scroll to unleash the system</p>
       </div>
     </div>
   </div>
@@ -1022,7 +917,7 @@ footer{background:#050505;border-top:1px solid var(--border);padding:64px 0 32px
       <div class="section-label" style="justify-content:center">Get Started</div>
       <h2 class="final-cta-title" id="cta-title">Ready To Get<br><span class="text-accent">Your Time Back?</span></h2>
       <p class="final-cta-sub">Join 50+ Miami businesses already running on autopilot. Your free audit takes 30 minutes and shows you exactly how much time and money you're leaving on the table.</p>
-      <a href="https://calendly.com/salvenano" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+      <a href="mailto:contact@salvenano.ai" class="btn btn-primary btn-lg">
         Book My Free Audit Now
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
@@ -1155,8 +1050,8 @@ footer{background:#050505;border-top:1px solid var(--border);padding:64px 0 32px
   }
 
   window.addEventListener('resize', resize);
-  // init();
-  // loop();
+  init();
+  loop();
 })();
 
 /* ===== SCROLL REVEAL ===== */
@@ -1310,370 +1205,6 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     }
   });
 });
-
-/* ===== TYPEWRITER ===== */
-const tw = document.getElementById('typewriter');
-if(tw) {
-  let contentArray = "We build AI systems that run your business while you sleep.<br><strong>50+ Miami businesses already automated.</strong>".match(/<[^>]+>|[^<]/g);
-  let cIndex = 0;
-  function typeWriter() {
-    if (cIndex < contentArray.length) {
-      tw.innerHTML += contentArray[cIndex];
-      cIndex++;
-      setTimeout(typeWriter, 30);
-    }
-  }
-  setTimeout(typeWriter, 500);
-}
-
-/* ===== HERO CANVAS ANIMATION ===== */
-(function(){
-  const canvas = document.getElementById('heroCanvas');
-  if(!canvas) return;
-  const ctx = canvas.getContext('2d');
-  const W = 2560, H = 1440;
-  const CX = W/2, CY = H/2;
-  const GREEN = '#00ff88';
-  const GREEN2 = '#00e87a';
-  const WHITE = '#ffffff';
-
-  /* ---- NODE GENERATION ---- */
-  const NODE_COUNT = 52;
-  const nodes = [];
-  const rng = (a,b) => a + Math.random()*(b-a);
-
-  // Core hub nodes (inner ring)
-  const coreAngles = [0,60,120,180,240,300].map(d=>d*Math.PI/180);
-  coreAngles.forEach((a,i)=>{
-    const r = 160 + rng(-20,20);
-    nodes.push({
-      bx: CX+Math.cos(a)*r, by: CY+Math.sin(a)*r,
-      er: rng(3.2,5.5), br: rng(6,10),
-      phase: rng(0,Math.PI*2), speed: rng(0.6,1.2),
-      type:'core', idx:i, color: i%2===0?GREEN:WHITE
-    });
-  });
-
-  // Mid ring nodes
-  for(let i=0;i<16;i++){
-    const a = (i/16)*Math.PI*2 + rng(-0.15,0.15);
-    const r = 340 + rng(-60,60);
-    nodes.push({
-      bx: CX+Math.cos(a)*r, by: CY+Math.sin(a)*r,
-      er: rng(3,5), br: rng(4,7),
-      phase: rng(0,Math.PI*2), speed: rng(0.4,0.9),
-      type:'mid', idx:i, color: Math.random()>0.4?GREEN:WHITE
-    });
-  }
-
-  // Outer ring nodes
-  for(let i=0;i<18;i++){
-    const a = (i/18)*Math.PI*2 + rng(-0.2,0.2);
-    const r = 560 + rng(-80,80);
-    nodes.push({
-      bx: CX+Math.cos(a)*r, by: CY+Math.sin(a)*r,
-      er: rng(2.5,4.5), br: rng(3,6),
-      phase: rng(0,Math.PI*2), speed: rng(0.3,0.7),
-      type:'outer', idx:i, color: Math.random()>0.5?GREEN:WHITE
-    });
-  }
-
-  // Scattered accent nodes
-  for(let i=0;i<12;i++){
-    const a = rng(0,Math.PI*2);
-    const r = rng(700,1050);
-    nodes.push({
-      bx: CX+Math.cos(a)*r, by: CY+Math.sin(a)*r,
-      er: rng(2,3.5), br: rng(2,4),
-      phase: rng(0,Math.PI*2), speed: rng(0.2,0.5),
-      type:'accent', idx:i, color: Math.random()>0.6?GREEN:WHITE
-    });
-  }
-
-  // Assign explosion targets (radial blast from center)
-  nodes.forEach(n=>{
-    const dx = n.bx-CX, dy = n.by-CY;
-    const dist = Math.sqrt(dx*dx+dy*dy)||1;
-    const blastR = rng(1100,1800) + dist*1.6;
-    const scatterA = Math.atan2(dy,dx) + rng(-0.35,0.35);
-    n.ex = CX + Math.cos(scatterA)*blastR;
-    n.ey = CY + Math.sin(scatterA)*blastR;
-    n.x = n.bx; n.y = n.by;
-    n.r = n.br;
-  });
-
-  /* ---- EDGES ---- */
-  const edges = [];
-  nodes.forEach((a,i)=>{
-    nodes.forEach((b,j)=>{
-      if(j<=i) return;
-      const dx=a.bx-b.bx, dy=a.by-b.by;
-      const d=Math.sqrt(dx*dx+dy*dy);
-      if(d<320 && Math.random()>0.3) edges.push({a:i,b:j,d});
-    });
-  });
-
-  /* ---- DATA PACKETS ---- */
-  const packets = edges.slice(0,18).map(e=>({
-    edge:e, t:Math.random(), speed:rng(0.003,0.008)
-  }));
-
-  /* ---- ENERGY RINGS ---- */
-  const rings = [{r:0,alpha:0,active:false},{r:0,alpha:0,active:false},{r:0,alpha:0,active:false}];
-
-  /* ---- SCROLL STATE ---- */
-  let progress = 0;
-  let animFrame;
-  const stickyWrap = document.querySelector('.hero-anim-sticky-wrap');
-  const hint = document.getElementById('animHint');
-
-  function getProgress(){
-    if(!stickyWrap) return 0;
-    const rect = stickyWrap.getBoundingClientRect();
-    const vh = window.innerHeight;
-    const total = stickyWrap.offsetHeight - vh;
-    const scrolled = -rect.top;
-    return Math.max(0, Math.min(1, scrolled/total));
-  }
-
-  /* ---- LERP HELPER ---- */
-  const lerp = (a,b,t) => a+(b-a)*t;
-  const ease = t => t<0.5 ? 2*t*t : -1+(4-2*t)*t;
-
-  /* ---- DRAW ---- */
-  let lastT = 0;
-  function draw(ts){
-    animFrame = requestAnimationFrame(draw);
-    const dt = Math.min((ts-lastT)/1000, 0.05);
-    lastT = ts;
-    progress = getProgress();
-    const p = ease(progress);
-    const t = ts*0.001;
-
-    // Hint fade
-    if(hint) hint.style.opacity = progress>0.05?'0':'1';
-
-    // Clear
-    ctx.clearRect(0,0,W,H);
-    ctx.fillStyle='#000000';
-    ctx.fillRect(0,0,W,H);
-
-    // Background grid (fades out with explosion)
-    const gridAlpha = (1-p)*0.06;
-    if(gridAlpha>0.005){
-      ctx.save();
-      ctx.strokeStyle=`rgba(0,255,136,${gridAlpha})`;
-      ctx.lineWidth=1;
-      const gs=80;
-      for(let x=0;x<W;x+=gs){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke();}
-      for(let y=0;y<H;y+=gs){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke();}
-      ctx.restore();
-    }
-
-    // Update node positions
-    nodes.forEach(n=>{
-      const breathe = Math.sin(t*n.speed+n.phase)*0.015;
-      n.x = lerp(n.bx,n.ex,p) + (1-p)*Math.cos(t*n.speed+n.phase)*8;
-      n.y = lerp(n.by,n.ey,p) + (1-p)*Math.sin(t*n.speed*0.7+n.phase)*8;
-      n.r = lerp(n.br,n.er,p) * (1+breathe*(1-p));
-    });
-
-    // Draw edges
-    edges.forEach(e=>{
-      const na=nodes[e.a], nb=nodes[e.b];
-      const maxD=320;
-      const dAlpha = 1-(e.d/maxD);
-      const baseAlpha = lerp(0.35,0.06,p)*dAlpha;
-      if(baseAlpha<0.01) return;
-
-      // Current dist for fade during explosion
-      const cdx=na.x-nb.x, cdy=na.y-nb.y;
-      const cd=Math.sqrt(cdx*cdx+cdy*cdy);
-      const distFade = Math.max(0,1-cd/1200);
-      const alpha=baseAlpha*distFade*(1-p*0.5);
-      if(alpha<0.005) return;
-
-      ctx.save();
-      const grad=ctx.createLinearGradient(na.x,na.y,nb.x,nb.y);
-      grad.addColorStop(0,`rgba(0,255,136,${alpha})`);
-      grad.addColorStop(0.5,`rgba(0,232,122,${alpha*0.6})`);
-      grad.addColorStop(1,`rgba(0,255,136,${alpha})`);
-      ctx.strokeStyle=grad;
-      ctx.lineWidth=lerp(2.5,0.8,p);
-      ctx.shadowColor='#00ff88';
-      ctx.shadowBlur=lerp(12,4,p);
-      ctx.beginPath();
-      ctx.moveTo(na.x,na.y);
-      ctx.lineTo(nb.x,nb.y);
-      ctx.stroke();
-      ctx.restore();
-    });
-
-    // Draw data packets (calm state only)
-    if(p<0.8){
-      const pAlpha=1-p/0.8;
-      packets.forEach(pk=>{
-        pk.t=(pk.t+pk.speed)%1;
-        const na=nodes[pk.edge.a], nb=nodes[pk.edge.b];
-        const px2=na.x+(nb.x-na.x)*pk.t;
-        const py2=na.y+(nb.y-na.y)*pk.t;
-        ctx.save();
-        ctx.beginPath();
-        ctx.arc(px2,py2,5,0,Math.PI*2);
-        ctx.fillStyle=`rgba(0,255,136,${0.9*pAlpha})`;
-        ctx.shadowColor='#00ff88';
-        ctx.shadowBlur=20;
-        ctx.fill();
-        ctx.restore();
-      });
-    }
-
-    // Draw nodes
-    nodes.forEach(n=>{
-      const glowSize = lerp(28,55,p)*(1+Math.sin(t*n.speed+n.phase)*0.2);
-      const glowAlpha = lerp(0.5,0.8,p);
-      ctx.save();
-      // Outer glow
-      const grd=ctx.createRadialGradient(n.x,n.y,0,n.x,n.y,glowSize);
-      grd.addColorStop(0,`rgba(0,255,136,${glowAlpha*0.5})`);
-      grd.addColorStop(0.4,`rgba(0,255,136,${glowAlpha*0.15})`);
-      grd.addColorStop(1,'rgba(0,255,136,0)');
-      ctx.fillStyle=grd;
-      ctx.beginPath();
-      ctx.arc(n.x,n.y,glowSize,0,Math.PI*2);
-      ctx.fill();
-      // Core dot
-      ctx.beginPath();
-      ctx.arc(n.x,n.y,n.r,0,Math.PI*2);
-      ctx.fillStyle=n.color==='#ffffff'?`rgba(255,255,255,${lerp(0.9,0.6,p)})`:`rgba(0,255,136,${lerp(1,0.85,p)})`;
-      ctx.shadowColor=n.color==='#ffffff'?'rgba(255,255,255,0.8)':'#00ff88';
-      ctx.shadowBlur=lerp(16,32,p);
-      ctx.fill();
-      ctx.restore();
-    });
-
-    // Central hub glow (calm state)
-    if(p<0.9){
-      const hubA=(1-p/0.9);
-      ctx.save();
-      const hubGrd=ctx.createRadialGradient(CX,CY,0,CX,CY,200);
-      hubGrd.addColorStop(0,`rgba(0,255,136,${0.18*hubA})`);
-      hubGrd.addColorStop(0.5,`rgba(0,255,136,${0.06*hubA})`);
-      hubGrd.addColorStop(1,'rgba(0,255,136,0)');
-      ctx.fillStyle=hubGrd;
-      ctx.beginPath();
-      ctx.arc(CX,CY,200,0,Math.PI*2);
-      ctx.fill();
-      // Pulsing center dot
-      const pr=12+Math.sin(t*1.8)*4;
-      ctx.beginPath();
-      ctx.arc(CX,CY,pr,0,Math.PI*2);
-      ctx.fillStyle=`rgba(0,255,136,${0.95*hubA})`;
-      ctx.shadowColor='#00ff88';
-      ctx.shadowBlur=40;
-      ctx.fill();
-      ctx.restore();
-    }
-
-    // Energy rings (explosion state)
-    if(p>0.15){
-      const ringP=(p-0.15)/0.85;
-      [0,0.33,0.66].forEach((offset,i)=>{
-        const rp=((ringP+offset)%1);
-        const rr=rp*1100;
-        const ra=Math.sin(rp*Math.PI)*0.5*(p);
-        if(ra<0.01) return;
-        ctx.save();
-        ctx.beginPath();
-        ctx.arc(CX,CY,rr,0,Math.PI*2);
-        ctx.strokeStyle=`rgba(0,255,136,${ra})`;
-        ctx.lineWidth=lerp(3,1,rp);
-        ctx.shadowColor='#00ff88';
-        ctx.shadowBlur=24;
-        ctx.stroke();
-        ctx.restore();
-      });
-    }
-
-    // Explosion burst particles (peak explosion)
-    if(p>0.6){
-      const bP=(p-0.6)/0.4;
-      const particleCount=Math.floor(bP*60);
-      for(let i=0;i<particleCount;i++){
-        const a=(i/particleCount)*Math.PI*2+t*0.1;
-        const r2=bP*800+Math.sin(t*2+i)*120;
-        const px2=CX+Math.cos(a)*r2;
-        const py2=CY+Math.sin(a)*r2;
-        const pa=Math.sin((bP)*Math.PI)*0.8;
-        ctx.save();
-        ctx.beginPath();
-        ctx.arc(px2,py2,rng(1,3.5),0,Math.PI*2);
-        ctx.fillStyle=`rgba(0,255,136,${pa*Math.random()})`;
-        ctx.shadowColor='#00ff88';
-        ctx.shadowBlur=12;
-        ctx.fill();
-        ctx.restore();
-      }
-    }
-
-    // "SALVENANO AI" text (calm center label)
-    if(p<0.4){
-      const ta=1-p/0.4;
-      ctx.save();
-      ctx.globalAlpha=ta;
-      ctx.font='bold 48px "Space Grotesk", sans-serif';
-      ctx.fillStyle='rgba(0,255,136,0.9)';
-      ctx.textAlign='center';
-      ctx.textBaseline='middle';
-      ctx.shadowColor='#00ff88';
-      ctx.shadowBlur=30;
-      ctx.fillText('SALVENANO AI',CX,CY-8);
-      ctx.font='24px "DM Sans", sans-serif';
-      ctx.fillStyle='rgba(255,255,255,0.6)';
-      ctx.shadowBlur=0;
-      ctx.fillText('Miami\'s #1 AI Automation Agency',CX,CY+40);
-      ctx.restore();
-    }
-
-    // Scanline overlay (calm)
-    if(p<0.5){
-      const sA=(1-p/0.5)*0.04;
-      ctx.save();
-      ctx.fillStyle=`rgba(0,255,136,${sA})`;
-      const scanY=((t*120)%4);
-      for(let y=scanY;y<H;y+=4){
-        ctx.fillRect(0,y,W,1);
-      }
-      ctx.restore();
-    }
-  }
-
-  /* ---- START ---- */
-  requestAnimationFrame(draw);
-
-  // Clean up if section scrolls out of view entirely
-  const obs=new IntersectionObserver(entries=>{
-    entries.forEach(e=>{
-      if(!e.isIntersecting && animFrame){
-        // keep running for smooth return scroll
-      }
-    });
-  },{threshold:0});
-  if(stickyWrap) obs.observe(stickyWrap);
-})();
-
-/* ===== SPOTLIGHT HOVER ===== */
-document.querySelectorAll('.service-card').forEach(card => {
-  card.addEventListener('mousemove', e => {
-    const rect = card.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    card.style.setProperty('--mouse-x', `${x}px`);
-    card.style.setProperty('--mouse-y', `${y}px`);
-  });
-});
-
 </script>
-
 </body>
 </html>
